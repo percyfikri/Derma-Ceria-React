@@ -1,0 +1,52 @@
+/* Color Palette */
+.color-orange {
+  background-color: #f8b22d;
+}
+.color-krem {
+  background-color: #f7f3e8;
+}
+.color-hitam {
+  background-color: #231f20;
+}
+
+/* Font Family */
+.font-regular {
+  font-family: "Helvetica-Regular", sans-serif;
+}
+.font-medium {
+  font-family: "Helvetica-medium", sans-serif;
+}
+.font-Bold {
+  font-family: "Helvetica-bold", sans-serif;
+}
+
+/* Font Color */
+.font-white {
+  color: white;
+}
+.font-black {
+  color: black;
+}
+.font-orange {
+  color: #f8b22d;
+}
+
+/* Font Size */
+.size-title-landing{ 
+  font-size: 48px;
+}
+.size-desc-landing{ 
+  font-size: 18px;
+}
+.size-title-category{ 
+  font-size: 30px;
+}
+.size-desc-category{ 
+  font-size: 18px;
+}
+.size-title-card{ 
+  font-size: 24px;
+}
+.size-desc-card{ 
+  font-size: 14px;
+}
