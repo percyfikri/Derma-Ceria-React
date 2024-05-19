@@ -49,7 +49,6 @@ const Footer = () => {
                     dermaceria@gmail.com
                   </a>
                 </li>
-                
               </ul>
             </div>
           </div>
@@ -59,7 +58,7 @@ const Footer = () => {
               <ul className="list-unstyled">
                 <li className="d-flex align-items-start">
                   <img src={Location} alt="icon location" className="me-2 img-fluid" style={{ width: "17px", height: "20px", alignSelf: "flex-start" }} />
-                  <a href="#" className="text-white" style={{ alignSelf: "flex-start" }}>
+                  <a href="#" className="text-white text-decoration-none" style={{ alignSelf: "flex-start" }}>
                     Jl. Matraman Raya No.134, Kb. Manggis, Kec. Matraman, Jakarta 13150
                   </a>
                 </li>

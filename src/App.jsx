@@ -3,11 +3,12 @@ import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/HeaderComponent";
 import Footer from "./components/FooterComponent";
-import Homepage from "./pages/Homepage/homepage";
-import Donasi from "./pages/Donasipage/donasi";
-import Event from "./pages/Eventpage/event";
-import Blog from "./pages/BlogPage/blog";
-import Login from "./pages/Loginpage/login";
+
+import Homepage from "./pages/homePage/homepage";
+import Donasi from "./pages/donasiPage/donasi";
+import Event from "./pages/eventPage/event";
+import Blog from "./pages/blogPage/blog";
+import Login from "./pages/loginPage/login";
 const App = () => {
   return (
     <>
