@@ -11,21 +11,18 @@
 
 /* Font Family */
 .font-regular {
-  /* font-family: "Helvetica-Regular", sans-serif; */
   font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
 }
 .font-medium {
-  /* font-family: "Helvetica-medium", sans-serif; */
   font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   line-height: 100%; /* 48px */
 }
 .font-bold {
-  /* font-family: "Helvetica-bold", sans-serif; */
   font-family: Helvetica;
   font-style: normal;
   font-weight: 700;
