@@ -1,23 +1,35 @@
-/* Color Palette */
-.color-orange {
+/* Background Color */
+.bg-color-orange {
   background-color: #f8b22d;
 }
-.color-krem {
+.bg-color-krem {
   background-color: #f7f3e8;
 }
-.color-hitam {
+.bg-color-hitam {
   background-color: #231f20;
 }
 
 /* Font Family */
 .font-regular {
-  font-family: "Helvetica-Regular", sans-serif;
+  /* font-family: "Helvetica-Regular", sans-serif; */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
 }
 .font-medium {
-  font-family: "Helvetica-medium", sans-serif;
+  /* font-family: "Helvetica-medium", sans-serif; */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 48px */
 }
-.font-Bold {
-  font-family: "Helvetica-bold", sans-serif;
+.font-bold {
+  /* font-family: "Helvetica-bold", sans-serif; */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
 }
 
 /* Font Color */
@@ -32,21 +44,21 @@
 }
 
 /* Font Size */
-.size-title-landing{ 
+.size-title-landing {
   font-size: 48px;
 }
-.size-desc-landing{ 
+.size-desc-landing {
   font-size: 18px;
 }
-.size-title-category{ 
+.size-title-category {
   font-size: 30px;
 }
-.size-desc-category{ 
+.size-desc-category {
   font-size: 18px;
 }
-.size-title-card{ 
+.size-title-card {
   font-size: 24px;
 }
-.size-desc-card{ 
+.size-desc-card {
   font-size: 14px;
 }
