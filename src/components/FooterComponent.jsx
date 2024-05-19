@@ -43,12 +43,6 @@ const Footer = () => {
                     dermaceria@gmail.com
                   </a>
                 </li>
-                <li className="d-flex align-items-center">
-                  <img src={Email} alt="icon location" className="me-2 img-fluid" style={{ maxWidth: "20px" }} />
-                  <a href="#" className="text-white text-decoration-none">
-                    dermaceria@gmail.com
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
