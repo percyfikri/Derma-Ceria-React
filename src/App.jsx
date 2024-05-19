@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/HeaderComponent";
+import Footer from "./components/FooterComponent";
 import Homepage from "./pages/Homepage/homepage";
 import Donasi from "./pages/Donasipage/donasi";
 import Event from "./pages/Eventpage/event";
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      <Footer />
     </>
   );
 };

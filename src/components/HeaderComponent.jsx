@@ -5,24 +5,24 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Logo from "../assets/logos/logoHorizontal.png";
 import "../index.css";
-import { Row } from "react-bootstrap";
 
 const Header = () => {
   return (
     <>
       <Navbar className="bg-color-hitam">
-        <Container className="d-flex justify-content-between">
-          <Row>
-            <Navbar.Brand href="/">
-              <img src={Logo} alt="logo" style={{ width: "150px" }} />
-            </Navbar.Brand>
-          </Row>
-          <Row>
-            {" "}
-            <input type="text" placeholder="Search" className="form-control mx-2 bg-light" style={{ width: "467px" }} />
-          </Row>
-          <Row className="my-2 ">
-            <Nav className="me-auto d-flex align-items-center">
+        <Container className="d-flex justify-content-between my-2">
+          <div className="row align-items-center">
+            <div className="col">
+              <Navbar.Brand href="/">
+                <img src={Logo} alt="logo" style={{ width: "150px" }} />
+              </Navbar.Brand>
+            </div>
+            <div className="col">
+              <input type="text" placeholder="Search" className="form-control mx-2 bg-light" style={{ width: "467px" }} />
+            </div>
+          </div>
+          <div className="row align-items-center">
+            <Nav className="ms-auto d-flex align-items-center">
               <Nav.Link href="/donasi" className="text-white font-medium me-3 ">
                 Donasi
               </Nav.Link>
@@ -38,7 +38,7 @@ const Header = () => {
                 </a>
               </div>
             </Nav>
-          </Row>
+          </div>
         </Container>
       </Navbar>
     </>
