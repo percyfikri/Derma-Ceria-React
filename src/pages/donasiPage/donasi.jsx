@@ -18,6 +18,11 @@ const Donasi = () => {
               Donasi adalah kilatan cahaya di tengah kegelapan, sebuah pelukan hangat dalam dinginnya dunia. Dengan memberi, kita menghidupkan percikan harapan, memperkuat jalinan kemanusiaan, dan membawa keajaiban bagi mereka yang
               membutuhkan.
             </p>
+            <div className="d-flex justify-content-start" style={{ marginLeft: "8rem" }}>
+              <a href="#" className="btn btn-warning" style={{ fontSize: "0.9rem" }}>
+                Lihat Selengkapnya
+              </a>
+            </div>
           </div>
         </Container>
       </div>
@@ -91,7 +96,6 @@ const Donasi = () => {
                       <br />
                       <Card.Text>Rp. 5.000.000</Card.Text>
                     </Card.Body>
-
                   </Card>
                 </Col>
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
