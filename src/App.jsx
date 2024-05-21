@@ -8,24 +8,28 @@ import Homepage from "./pages/homePage/homepage";
 import Donasi from "./pages/donasiPage/donasi";
 import Event from "./pages/eventPage/event";
 import Blog from "./pages/blogPage/blog";
-import LoginWithoutHeaderAndFooter from "./components/LoginWithoutHeaderAndFooter";
+import LoginWithoutHeaderAndFooter from "./pages/loginPage/login";  // Perbaiki path impor
+import Register from "./pages/registerPage/register";
+
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
+  const isRegisterPage = location.pathname === "/register";
 
   return (
     <>
-      {!isLoginPage && <Header />}
+      {!isLoginPage && !isRegisterPage && <Header />}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/donasi" element={<Donasi />} />
         <Route path="/event" element={<Event />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/login" element={<LoginWithoutHeaderAndFooter />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
-      {!isLoginPage && <Footer />}
+      {!isLoginPage && !isRegisterPage && <Footer />}
     </>
   );
-};
+}
 
 export default App;

@@ -1,15 +1,12 @@
-/* login css */
-
 .login-container {
-  background-image: url("./assets/Background.jpg");
+  background-image: url('../../assets/loginregister.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .login-form {
   background-color: rgba(180, 180, 180, 0.315);
-  /* Lebihgelap */
-  padding: 20px;
+  /*Lebihgelap*/padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
   color: rgb(0, 0, 0);
@@ -49,9 +46,4 @@
 .logo {
   width: 250px; /* Ukuran logo */
   height: auto;
-}
-.overlay-text {
-  background-image: url("../../assets/images/bg.jpg");
-  background-size: cover;
-  background-position: center;
 }

@@ -1,8 +1,6 @@
-// import React from 'react'
 import React, { useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import backgroundImage from '../../assets/Background.jpg'; // Pastikan path ini benar
 import Logo from '../../assets/logos/logoHorizontal.png';
 import '../../index.css';
 import './register.css';
@@ -43,24 +41,32 @@ const Register = () => {
             <p>Isi formulir di bawah untuk membuat akun baru.</p>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formBasicName">
+                <Form.Label></Form.Label> {/* Tambahkan Form.Label */}
                 <Form.Control type="text" placeholder="Masukkan Nama" value={name} onChange={handleNameChange} />
               </Form.Group>
               <Form.Group controlId="formBasicEmail">
+                <Form.Label></Form.Label> 
                 <Form.Control type="email" placeholder="Masukkan Email" value={email} onChange={handleEmailChange} />
               </Form.Group>
               <Form.Group controlId="formBasicPassword">
+              <Form.Label></Form.Label> 
                 <Form.Control type="password" placeholder="Masukkan Kata Sandi" value={password} onChange={handlePasswordChange} />
               </Form.Group>
               <Form.Group controlId="formRole">
-                <Form.Control as="select">
+                <Form.Label></Form.Label>
+                <Form.Select aria-label="Default select example">
+                    <option>Pilih Role</option>
+                    <option value="1">Donatur</option>
+                    <option value="2">Penggalang Dana</option>
+                  </Form.Select>
+                  <Form.Label></Form.Label>
+                {/* <Form.Control as="select">
                   <option value="">Pilih Role</option>
                   <option>Donatur</option>
                   <option>Penggalang</option>
-                </Form.Control>
+                </Form.Control> */}
               </Form.Group>
-              <Button variant="warning" type="submit" className="w-100 mb-3">
-                Daftar
-              </Button>
+              <Button variant="warning" type="submit" className="w-100 mb-3">Daftar</Button>
               <div className="text-center">
                 <p>Sudah punya akun? <Link to="/login">Masuk</Link></p>
               </div>
