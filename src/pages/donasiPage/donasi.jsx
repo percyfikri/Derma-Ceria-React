@@ -7,14 +7,14 @@ const Donasi = () => {
   return (
     <div>
       {/* landing page */}
-      <div className="color-landing " style={{ position: "relative", minHeight: "70vh" }}>
+      <div className="color-landing " style={{ position: "relative", minHeight: "80vh" }}>
         <Container>
           <div className="donasi-landing">
-            <h1 className="fw-bold py-5 px-5">
+            <h1>
               Pintu Menuju <br />
               Kebahagiaan
             </h1>
-            <p className="fs-6 font-family-Helvetica px-5 pb-5">
+            <p>
               Donasi adalah kilatan cahaya di tengah kegelapan, sebuah pelukan hangat dalam dinginnya dunia. Dengan memberi, kita menghidupkan percikan harapan, memperkuat jalinan kemanusiaan, dan membawa keajaiban bagi mereka yang
               membutuhkan.
             </p>
@@ -80,7 +80,7 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Pendidikan Anak Yatim</Card.Title>
+                      <Card.Title className="title-donasi">Pendidikan Anak Yatim</Card.Title>
                       <Card.Text>
                         Bantu berikan pendidikan yang layak untuk anak yatim & dhu&apos;afa. Setiap sumbanganmu membuka pintu kesempatan baru bagi mereka. Mari kita berinvestasi dalam masa depan mereka bersama. Donasikan sekarang! div.
                       </Card.Text>
@@ -154,7 +154,7 @@ const Donasi = () => {
                     </div>
                     <Card.Body>
                       <Card.Title>Sumbangan Panti asuhan</Card.Title>
-                      <Card.Text>Ayo bergabung dalam gerakan kemanusiaan! Setiap sumbanganmu membantu menciptakan perbedaan bagi yang membutuhkan. Bersama, kita bisa memberikan harapan dan mengubah hidup!</Card.Text>
+                      <Card.Text>Ayo bergabung dalam gerakan kemanusiaan! Setiap sumbanganmu membantu menciptakan perbedaan bagi yang membutuhkan. Bersama, kita beri harapan dan mengubah hidup!</Card.Text>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 25.000.000</Card.Text>
                       <div>
                         <ProgressBar now={25} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
