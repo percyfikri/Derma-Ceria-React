@@ -105,81 +105,76 @@ const Homepage = () => {
       {/* end Pilih Kategori Donasi */}
 
       {/* card rekomendasi */}
-      <div className="donasicard w-100 min-vh-100">
-        <Container className="px-4">
-          <div className="title size-title-category font-bold pb-4">Rekomendasi Penggalangan Dana</div>
-          <Col>
-            <Row className="gap-6 max-md:flex-col max-md:gap-0">
-              <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                <Card>
-                  <div className="card-imgs1">
-                    <Card.Img variant="top" />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Bantuan untuk anak Indonesia!</Card.Title>
-                    <Card.Text>
-                      Dibutuhkan penggalangan dana untuk lebih dari 100 anak-anak yang terkena kanker di Indonesia. Setiap sumbangan Anda memiliki potensi untuk menyelamatkan sebuah kehidupan dan memberikan harapan bagi masa depan mereka.
-                      Bersama-sama, kita bisa menjadi alasan di balik senyum mereka.
-                    </Card.Text>
-                    <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 300.000.000</Card.Text>
-                    <div>
-                      <ProgressBar now={45} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} />{" "}
-                    </div>{" "}
-                    <br />
-                    <Card.Text>Rp. 120.000.000</Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                <Card>
-                  <div className="card-imgs2">
-                    <Card.Img variant="top" />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Donasi Korban Banjir </Card.Title>
-                    <Card.Text>
-                      Saudara-saudara kita membutuhkan bantuanmu! Donasikan sekarang untuk membantu korban banjir. Setiap kontribusimu akan membawa sinar harapan di tengah keterpurukan. Mari bersama-sama, kita bantu mereka bangkit dan pulih
-                      dari bencana ini
-                    </Card.Text>
-                    <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 35.000.000</Card.Text>
-                    <div>
-                      <ProgressBar now={60} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                    </div>{" "}
-                    <br />
-                    <Card.Text>Rp. 17.000.000</Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                <Card>
-                  <div className="card-imgs3">
-                    <Card.Img variant="top" />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Donasi Korban Gempa Bumi</Card.Title>
-                    <Card.Text>
-                      Bantu saudara-saudara kita yang terkena dampak gempa bumi! Setiap donasimu memberi harapan baru. Bersama-sama, kita bisa membangun kembali komunitas yang terkena dampak. Ayo, mari berikan dukungan dan bantuan
-                      sekarang!Ayo, mari berikan dukungan dan bantuan sekarang!
-                    </Card.Text>
-                    <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp.50.000.000</Card.Text>
-                    <div>
-                      <ProgressBar now={75} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                    </div>{" "}
-                    <br />
-                    <Card.Text>Rp. 30.000.000</Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </Col>
-        </Container>
-      </div>
+      <Row className="gap-6 max-md:flex-col max-md:gap-0 mx-5 mb-5">
+        <div className="title size-title-category font-bold pb-4">Rekomendasi Penggalangan Dana</div>
+        <Col>
+          <Card className="w-100">
+            <div className="card-imgs1">
+              <Card.Img variant="top" />
+            </div>
+            <Card.Body>
+              <Card.Title style={{ fontSize: "1.2rem" }}>Bantuan untuk anak Indonesia!</Card.Title>
+              <Card.Text>
+                Dibutuhkan penggalangan dana untuk lebih dari 100 anak-anak yang terkena kanker di Indonesia. Setiap sumbangan Anda memiliki potensi untuk menyelamatkan sebuah kehidupan dan memberikan harapan bagi masa depan mereka.
+                Bersama-sama, kita bisa menjadi alasan di balik senyum mereka.
+              </Card.Text>
+              <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 300.000.000</Card.Text>
+              <div>
+                <ProgressBar now={45} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} />{" "}
+              </div>{" "}
+              <br />
+              <Card.Text>Rp. 120.000.000</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card className="w-100">
+            <div className="card-imgs2">
+              <Card.Img variant="top" />
+            </div>
+            <Card.Body>
+              <Card.Title style={{ fontSize: "1.2rem" }}>Donasi Korban Banjir</Card.Title>
+              <Card.Text>
+                Saudara-saudara kita membutuhkan bantuanmu! Donasikan sekarang untuk membantu korban banjir. Setiap kontribusimu akan membawa sinar harapan di tengah keterpurukan. Mari bersama-sama, kita bantu mereka bangkit dan pulih dari
+                bencana ini
+              </Card.Text>
+              <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 35.000.000</Card.Text>
+              <div>
+                <ProgressBar now={60} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
+              </div>{" "}
+              <br />
+              <Card.Text>Rp. 17.000.000</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card className="w-100">
+            <div className="card-imgs3">
+              <Card.Img variant="top" />
+            </div>
+            <Card.Body>
+              <Card.Title style={{ fontSize: "1.2rem" }}>Donasi Korban Gempa Bumi</Card.Title>
+              <Card.Text>
+                Bantu saudara-saudara kita yang terkena dampak gempa bumi! Setiap donasimu memberi harapan baru. Bersama-sama, kita bisa membangun kembali komunitas yang terkena dampak. Ayo, mari berikan dukungan dan bantuan sekarang!Ayo,
+                mari berikan dukungan dan bantuan sekarang!
+              </Card.Text>
+              <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp.50.000.000</Card.Text>
+              <div>
+                <ProgressBar now={75} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
+              </div>{" "}
+              <br />
+              <Card.Text>Rp. 30.000.000</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+
       {/* end card Rekomendasi */}
 
       {/* Banner ke-2 */}
       <div className="color-landing" style={{ position: "relative", minHeight: "calc(70vh - 2rem)" }}>
         <Container>
-          <div className="homepage-banner2" style={{ height: "100%"}}>
+          <div className="homepage-banner2" style={{ height: "100%" }}>
             <Row>
               <Col className="d-flex align-items-center justify-content-center mt-5">
                 {" "}
@@ -200,83 +195,75 @@ const Homepage = () => {
       {/* Banner ke-2 */}
 
       {/* card pilihan */}
-      <div className="donasicard w-100 min-vh-100">
-        <Container className="px-4 my-5">
-          <div className="text-center">
-            <div className="title size-title-category font-bold pb-4 py-5">
-              <p>Pilihan DermaCeria</p>
-            </div>
-            <div className="title size-desc-category font-regular pb-4" style={{ maxWidth: "calc(100% - 2rem)" }}>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, molestiae harum! Illum quae, natus molestias, nihil consequuntur repudiandae quibusdam impedit commodi asperiores, maxime qui magni? Sapiente blanditiis
-                ratione omnis accusamus?
-              </p>
-            </div>
+      <Row className="gap-6 max-md:flex-col max-md:gap-0 mx-5 mb-5">
+        <div className="text-center">
+          <div className="title size-title-category font-bold pb-4 py-5">
+            <p>Pilihan DermaCeria</p>
           </div>
-          <Col>
-            <Row className="gap-6 max-md:flex-col max-md:gap-0">
-              <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                <Card>
-                  <div className="card-imgs4">
-                    <Card.Img variant="top" />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Donasi Korban Erupsi</Card.Title>
-                    <Card.Text>Dalam momen krisis akibat erupsi Gunung Semeru Bersama-sama, mari kita membangun kembali kehidupan mereka yang terpukul dan membawa kembali kehangatan bagi yang terluka. Yuk Berdonasi Sekarang !</Card.Text>
-                    <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
-                    <div>
-                      <ProgressBar now={75} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} />{" "}
-                    </div>{" "}
-                    <br />
-                    <Card.Text>Rp. 33.000.000</Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                <Card>
-                  <div className="card-imgs5">
-                    <Card.Img variant="top" />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Donasi Untuk Palestina</Card.Title>
-                    <Card.Text>Bantu Palestina, hentikan penderitaan! Donasikan sekarang untuk memberi bantuan mendesak. Setiap donasi membawa harapan baru bagi mereka yang terdampak. Mari Berdonasi Sekarang !</Card.Text>
-                    <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 100.000.000</Card.Text>
-                    <div>
-                      <ProgressBar now={90} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                    </div>{" "}
-                    <br />
-                    <Card.Text>Rp. 92.000.000</Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                <Card>
-                  <div className="card-imgs6">
-                    <Card.Img variant="top" />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Donasi Pembebasan Lahan</Card.Title>
-                    <Card.Text>Ayo bersama kita wujudkan pendidikan yang lebih baik! Sumbangkan untuk pembebasan lahan madrasah. Setiap donasi membuka pintu kesempatan bagi generasi mendatang. Mari Berdonasi Sekarang !</Card.Text>
-                    <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 150.000.000</Card.Text>
-                    <div>
-                      <ProgressBar now={30} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                    </div>{" "}
-                    <br />
-                    <Card.Text>Rp. 55.000.000</Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </Col>
-        </Container>
-      </div>
+          <div className="title size-desc-category font-regular pb-4" style={{ maxWidth: "calc(100% - 2rem)" }}>
+            <p>Berdonasi bukan hanya tentang memberi uang, tetapi juga tentang memberikan harapan dan kebaikan kepada mereka yang membutuhkan.</p>
+          </div>
+        </div>
+        <Col>
+          <Card className="w-100">
+            <div className="card-imgs4">
+              <Card.Img variant="top" />
+            </div>
+            <Card.Body>
+              <Card.Title style={{ fontSize: "1.2rem" }}>Donasi Korban Erupsi</Card.Title>
+              <Card.Text>Dalam momen krisis akibat erupsi Gunung Semeru Bersama-sama, mari kita membangun kembali kehidupan mereka yang terpukul dan membawa kembali kehangatan bagi yang terluka. Yuk Berdonasi Sekarang !</Card.Text>
+              <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
+              <div>
+                <ProgressBar now={75} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} />{" "}
+              </div>{" "}
+              <br />
+              <Card.Text>Rp. 33.000.000</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card className="w-100">
+            <div className="card-imgs5">
+              <Card.Img variant="top" />
+            </div>
+            <Card.Body>
+              <Card.Title style={{ fontSize: "1.2rem" }}>Donasi Untuk Palestina</Card.Title>
+              <Card.Text>Bantu Palestina, hentikan penderitaan! Donasikan sekarang untuk memberi bantuan mendesak. Setiap donasi membawa harapan baru bagi mereka yang terdampak. Mari Berdonasi Sekarang !</Card.Text>
+              <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 100.000.000</Card.Text>
+              <div>
+                <ProgressBar now={90} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
+              </div>{" "}
+              <br />
+              <Card.Text>Rp. 92.000.000</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card className="w-100">
+            <div className="card-imgs6">
+              <Card.Img variant="top" />
+            </div>
+            <Card.Body>
+              <Card.Title style={{ fontSize: "1.2rem" }}>Donasi Pembebasan Lahan</Card.Title>
+              <Card.Text>Ayo bersama kita wujudkan pendidikan yang lebih baik! Sumbangkan untuk pembebasan lahan madrasah. Setiap donasi membuka pintu kesempatan bagi generasi mendatang. Mari Berdonasi Sekarang !</Card.Text>
+              <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 150.000.000</Card.Text>
+              <div>
+                <ProgressBar now={30} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
+              </div>{" "}
+              <br />
+              <Card.Text>Rp. 55.000.000</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+
       {/* end card pilihan */}
 
       {/* Banner ke-3 */}
-      <div className="color-landing my-5" style={{ position: "relative", minHeight: "calc(70vh - 2rem)" }}>
+      <div className="color-landing " style={{ position: "relative", minHeight: "calc(70vh - 2rem)" }}>
         <Container>
-          <div className="homepage-banner3 " style={{ height: "100%" }}>
-            <div className="row font-white text-center font-orange font-bold" style={{ margin: "9rem" }}>
+          <div className="homepage-banner3" style={{ height: "calc(100% - 7rem)" }}>
+            <div className="row font-white text-center font-orange font-bold" style={{ margin: "5rem" }}>
               <Row className="gap-8 max-md:flex-col max-md:gap-0">
                 <Col>
                   <p className="size-title-landing py-3">5000</p>
@@ -302,13 +289,13 @@ const Homepage = () => {
       {/* Banner ke-2 */}
 
       {/* #TemanPeduli */}
-      <div className="teman-peduli py-5 ">
+      <div className="teman-peduli ">
         <div className="text-center">
           <div className="title size-title-category font-bold pb-4">
             <p>#TemanPeduli</p>
           </div>
         </div>
-        <div className="donasicard w-100 pb-5">
+        <div className="donasicard w-100 " style={{ paddingBottom: "7rem" }}>
           <Container>
             <Col>
               <Row>
