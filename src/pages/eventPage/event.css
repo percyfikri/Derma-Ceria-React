@@ -49,7 +49,7 @@
   .card {
     height: 90%;
     width: 105%;
-    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.17);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.17);
     padding: 0.5rem;
     margin-bottom: 2rem;
     background-color: #ffffff;
