@@ -7,17 +7,22 @@ const Donasi = () => {
   return (
     <div>
       {/* landing page */}
-      <div className="color-landing " style={{ position: "relative", minHeight: "70vh" }}>
+      <div className="color-landing " style={{ position: "relative", minHeight: "80vh" }}>
         <Container>
           <div className="donasi-landing">
-            <h1 className="fw-bold py-5 px-5">
+            <h1>
               Pintu Menuju <br />
               Kebahagiaan
             </h1>
-            <p className="fs-6 font-family-Helvetica px-5 pb-5">
+            <p>
               Donasi adalah kilatan cahaya di tengah kegelapan, sebuah pelukan hangat dalam dinginnya dunia. Dengan memberi, kita menghidupkan percikan harapan, memperkuat jalinan kemanusiaan, dan membawa keajaiban bagi mereka yang
               membutuhkan.
             </p>
+            <div className="d-flex justify-content-start" style={{ marginLeft: "8rem" }}>
+              <a href="#" className="btn btn-warning" style={{ fontSize: "0.9rem" }}>
+                Lihat Selengkapnya
+              </a>
+            </div>
           </div>
         </Container>
       </div>
@@ -27,49 +32,49 @@ const Donasi = () => {
         <Container className="px-4">
           <Row>
             <Col xs={2}>
-              <div className="flex flex-col text-xl text-black max-w-[283px]">
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Kategori</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Bencana</li>
-                  <li className="square-bullet">Sosial</li>
-                  <li className="square-bullet">Pendidikan</li>
-                  <li className="square-bullet">Kesehatan</li>
-                  <li className="square-bullet">Kerohanian</li>
-                  <li className="square-bullet">Teknologi</li>
-                </ul>
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Campaign</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Normal</li>
-                  <li className="square-bullet">Zakat</li>
-                  <li className="square-bullet">Qurban</li>
-                </ul>
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Status</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Berlangsung</li>
-                  <li className="square-bullet">Selesai</li>
-                  <li className="square-bullet">Diperpanjang</li>
-                </ul>
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Diurutkan</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Paling Populer</li>
-                  <li className="square-bullet">Akan Berakhir</li>
-                  <li className="square-bullet">Terbaru</li>
-                  <li className="square-bullet">Terlama</li>
-                  <li className="square-bullet">Mendesak</li>
-                </ul>
-              </div>
+            <div className="flex flex-col text-xl text-black max-w-[283px]">
+            <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Kategori</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet1"><Link to="/bencanaalam" target="_blank">Bencana</Link></li>
+                <li className="square-bullet2"><Link to="/sosial" target="_blank">Sosial</Link></li>
+                <li className="square-bullet3"><Link to="/pendidikan" target="_blank">Pendidikan</Link></li>
+                <li className="square-bullet4"><Link to="/kesehatan" target="_blank">Kesehatan</Link></li>
+                <li className="square-bullet4"><Link to="/kerohanian" target="_blank">Kerohanian</Link></li>
+                <li className="square-bullet5"><Link to="/teknologi" target="_blank">Teknologi</Link></li>
+              </ul>
+              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Campaign</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet6"><Link to="/normal" target="_blank">Normal</Link></li>
+                <li className="square-bullet7"><Link to="/zakat" target="_blank">Zakat</Link></li>
+                <li className="square-bullet8"><Link to="/qurban" target="_blank">Qurban</Link></li>
+              </ul>
+              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Status</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet9"><Link to="/normal" target="_blank">Berlangsung</Link></li>
+                <li className="square-bullet10"><Link to="/selesai" target="_blank">Selesai</Link></li>
+                <li className="square-bullet11"><Link to="/diperpanjang" target="_blank">Diperpanjang</Link></li>
+              </ul>
+              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Diurutkan</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet12"><Link to="/populer" target="_blank">Paling Populer</Link></li>
+                <li className="square-bullet13"><Link to="/berakhir" target="_blank">Akan Berakhir</Link></li>
+                <li className="square-bullet14"><Link to="/terbaru" target="_blank">Terbaru</Link></li>
+                <li className="square-bullet15"><Link to="/terlama" target="_blank">Terlama</Link></li>
+                <li className="square-bullet16"><Link to="/mendesak" target="_blank">Mendesak</Link></li>
+              </ul>
+            </div>
             </Col>
 
             <Col>
@@ -80,7 +85,7 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Pendidikan Anak Yatim</Card.Title>
+                      <Card.Title className="title-donasi">Pendidikan Anak Yatim</Card.Title>
                       <Card.Text>
                         Bantu berikan pendidikan yang layak untuk anak yatim & dhu&apos;afa. Setiap sumbanganmu membuka pintu kesempatan baru bagi mereka. Mari kita berinvestasi dalam masa depan mereka bersama. Donasikan sekarang! div.
                       </Card.Text>
@@ -91,7 +96,6 @@ const Donasi = () => {
                       <br />
                       <Card.Text>Rp. 5.000.000</Card.Text>
                     </Card.Body>
-
                   </Card>
                 </Col>
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
@@ -154,7 +158,7 @@ const Donasi = () => {
                     </div>
                     <Card.Body>
                       <Card.Title>Sumbangan Panti asuhan</Card.Title>
-                      <Card.Text>Ayo bergabung dalam gerakan kemanusiaan! Setiap sumbanganmu membantu menciptakan perbedaan bagi yang membutuhkan. Bersama, kita bisa memberikan harapan dan mengubah hidup!</Card.Text>
+                      <Card.Text>Ayo bergabung dalam gerakan kemanusiaan! Setiap sumbanganmu membantu menciptakan perbedaan bagi yang membutuhkan. Bersama, kita beri harapan dan mengubah hidup!</Card.Text>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 25.000.000</Card.Text>
                       <div>
                         <ProgressBar now={25} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}

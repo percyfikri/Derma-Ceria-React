@@ -1,0 +1,172 @@
+* {
+    font-family: Helvetica;
+    font-style: normal;
+  }
+  
+  .home-landing h1 {
+    font-weight: 600;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 0 rem;
+    margin-left: 8rem;
+  }
+  
+  .home-landing p {
+    color: white;
+    width: 40%;
+    margin-left: 8rem;
+  }
+  
+  .home-landing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: justify;
+    background-image: url("../../assets/images/bannerHome1.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #f7f3e8;
+    width: 100%;
+    height: 410px;
+  }
+  
+  /* html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container-fullscreen {
+    background-color: #f7f3e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+   */
+  
+  .font-bold {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+  
+  /* Mengatur properti gambar dalam Card */
+  .card-img-top {
+    width: 100%; /* Mengisi lebar gambar sesuai dengan lebar Card */
+    height: 160px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Memastikan gambar sesuai dengan ukuran container tanpa merubah aspek rasio */
+  }
+  
+  .color-landing {
+    background-color: #f7f3e8;
+  }
+  
+  .donasicard {
+    background-color: #f7f3e8;
+  }
+  
+  .card {
+    height: 90%;
+    width: 105%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+  }
+  
+  .card-title {
+    font-size: 0.8rem; /* Ukuran teks untuk judul card */
+  }
+  
+  .card-text {
+    font-size: 0.7rem; /* Ukuran teks untuk isi card */
+  }
+  
+  .custom-hr {
+    height: 5px;
+    background-image: linear-gradient(to right, black, black);
+  }
+  
+  .card-container {
+    height: 100%; /* Menetapkan tinggi 100% untuk kontainer card */
+  }
+  
+  .first-list:first-child {
+    list-style-type: none;
+  }
+  
+  .profile-derma {
+    background-image: url("../../assets/images/profilederma.png");
+  }
+  
+  .card-imgs1 {
+    background-image: url("../../assets/images/homepage1.jpeg");
+    background-size: cover;
+  }
+  
+  .card-imgs2 {
+    background-image: url("../../assets/images/homepage2.jpeg");
+    background-size: cover;
+  }
+  
+  .card-imgs3 {
+    background-image: url("../../assets/images/homepage3.jpeg");
+    background-size: cover;
+  }
+  
+  .card-imgs4 {
+    background-image: url("../../assets/images/homepage4.jpeg");
+    background-size: cover;
+  }
+  
+  .card-imgs5 {
+    background-image: url("../../assets/images/homepage5.jpeg");
+    background-size: cover;
+  }
+  
+  .card-imgs6 {
+    background-image: url("../../assets/images/homepage6.jpeg");
+    background-size: cover;
+  }
+  
+  /* banner 2 homepage */
+  .homepage-banner2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: black;
+    text-align: justify;
+    background-image: url("../../assets/images/bannerHome2.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #f7f3e8;
+  }
+  .color-banner2-homepage {
+    background-color: #f7f3e8;
+  }
+  /* end banner 2 homepage */
+  
+  /* banner 3 homepage */
+  .homepage-banner3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: black;
+    text-align: justify;
+    background-image: url("../../assets/images/bannerHome3.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #f7f3e8;
+  }
+  /* end banner 2 homepage */
+  

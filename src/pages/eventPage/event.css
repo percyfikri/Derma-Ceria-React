@@ -1,0 +1,82 @@
+*{
+    font-family: Helvetica;
+    font-style: normal;
+  }
+  
+  .event-landing h1 {
+    font-weight: 600;
+    color: #f8b20d;
+    margin-top: 7.5rem;
+    margin-bottom: 0 rem;
+    text-align: center;
+  }
+  
+  .event-landing p {
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: 11rem;
+  }
+  
+  .event-landing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url("../../assets/images/sulbar.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin-button: 0rem;
+    width: 100%;
+    height: 410px;
+  }
+  
+  /* Mengatur properti gambar dalam Card */
+  .card-img-top {
+    width: 100%; /* Mengisi lebar gambar sesuai dengan lebar Card */
+    height: 160px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Memastikan gambar sesuai dengan ukuran container tanpa merubah aspek rasio */
+  }
+  
+  /* .color-landing {
+    background-color: #f7f3e8;
+    margin: 0;
+  } */
+  
+  .eventcard {
+    background-color: #f7f3e8;
+  }
+  
+  .card {
+    height: 90%;
+    width: 105%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.17);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 0.8rem; /* Ukuran teks untuk judul card */
+  }
+  
+  .card-text {
+    font-size: 0.7rem; /* Ukuran teks untuk isi card */
+  }
+  
+  .card-event-img1 {
+    background-image: url("../../assets/images/event1.jpeg");
+    background-size: cover;
+  }
+  
+  .card-event-img2 {
+    background-image: url("../../assets/images/event2.jpeg");
+    background-size: cover;
+  }
+  
+  .card-event-img3 {
+    background-image: url("../../assets/images/event3.jpeg");
+    background-size: cover;
+  }
+  
