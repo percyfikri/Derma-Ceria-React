@@ -1,0 +1,251 @@
+* {
+  font-family: Helvetica;
+  font-style: normal;
+}
+
+.donasi-landing h1 {
+  font-weight: 600;
+  color: white;
+  margin-top: 7.5rem;
+  margin-bottom: 0 rem;
+  margin-left: 8rem;
+}
+
+.donasi-landing p {
+  color: white;
+  width: 40%;
+  margin-left: 8rem;
+}
+
+.donasi-landing {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: justify;
+  background-image: url("../../assets/images/banner2.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #f7f3e8;
+  margin-button: 0.5rem;
+  width: 100%;
+  height: 410px;
+}
+
+/* Mengatur properti gambar dalam Card */
+.card-img-top {
+  width: 100%; /* Mengisi lebar gambar sesuai dengan lebar Card */
+  height: 160px; /* Menentukan tinggi gambar */
+  object-fit: cover; /* Memastikan gambar sesuai dengan ukuran container tanpa merubah aspek rasio */
+}
+
+.color-landing {
+  background-color: #f7f3e8;
+}
+
+.donasicard {
+  background-color: #f7f3e8;
+}
+
+.card-container {
+  height: 90%;
+  width: 105%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+}
+
+.title-donasi {
+  font-weight: 600;
+  font-size: 0.8rem; /* Ukuran teks untuk judul card */
+}
+
+.card.text {
+  font-size: 0.7rem; /* Ukuran teks untuk isi card */
+}
+
+.custom-hr {
+  height: 5px;
+  background-image: linear-gradient(to right, black, black);
+}
+
+.card-container {
+  height: 100%; /* Menetapkan tinggi 100% untuk kontainer card */
+}
+
+.first-list:first-child {
+  list-style-type: none;
+}
+
+.profile-derma {
+  background-image: url("../../assets/images/profilederma.png");
+}
+
+/* card bencana alam */
+.card-bencana-img1 {
+  background-image: url("../../assets/images/benc1.jpg");
+  background-size: cover;
+}
+.card-bencana-img2 {
+  background-image: url("../../assets/images/benc2.jpg");
+  background-size: cover;
+}
+.card-bencana-img3 {
+  background-image: url("../../assets/images/benc3.jpg");
+  background-size: cover;
+}
+.card-bencana-img4 {
+  background-image: url("../../assets/images/benc4.jpg");
+  background-size: cover;
+}
+.card-bencana-img5 {
+  background-image: url("../../assets/images/benc5.jpg");
+  background-size: cover;
+}
+.card-bencana-img6 {
+  background-image: url("../../assets/images/benc6.jpg");
+  background-size: cover;
+}
+/* end of card bencana alam */
+
+/* card sosial */
+.card-sos-img1 {
+  background-image: url("../../assets/images/sos1.jpg");
+  background-size: cover;
+}
+.card-sos-img2 {
+  background-image: url("../../assets/images/sos2.jpg");
+  background-size: cover;
+}
+.card-sos-img3 {
+  background-image: url("../../assets/images/sos3.jpg");
+  background-size: cover;
+}
+.card-sos-img4 {
+  background-image: url("../../assets/images/sos4.jpg");
+  background-size: cover;
+}
+.card-sos-img5 {
+  background-image: url("../../assets/images/sos5.jpg");
+  background-size: cover;
+}
+.card-sos-img6 {
+  background-image: url("../../assets/images/sos6.jpg");
+  background-size: cover;
+}
+/* end of card sosial */
+
+/* card kategori pendidikan */
+.card-pend-img1 {
+  background-image: url("../../assets/images/pend1.jpg");
+  background-size: cover;
+}
+.card-pend-img2 {
+  background-image: url("../../assets/images/pend2.jpg");
+  background-size: cover;
+}
+.card-pend-img3 {
+  background-image: url("../../assets/images/pend3.jpg");
+  background-size: cover;
+}
+.card-pend-img4 {
+  background-image: url("../../assets/images/pend4.jpg");
+  background-size: cover;
+}
+.card-pend-img5 {
+  background-image: url("../../assets/images/pend5.jpg");
+  background-size: cover;
+}
+.card-pend-img6 {
+  background-image: url("../../assets/images/pend6.jpg");
+  background-size: cover;
+}
+/* end kategori card pendidikan */
+
+/* card sehat */
+.card-sehat-img1 {
+  background-image: url("../../assets/images/sehat1.jpg");
+  background-size: cover;
+}
+.card-sehat-img2 {
+  background-image: url("../../assets/images/sehat2.jpg");
+  background-size: cover;
+}
+.card-sehat-img3 {
+  background-image: url("../../assets/images/sehat3.jpg");
+  background-size: cover;
+}
+.card-sehat-img4 {
+  background-image: url("../../assets/images/sehat4.jpg");
+  background-size: cover;
+}
+.card-sehat-img5 {
+  background-image: url("../../assets/images/sehat5.jpg");
+  background-size: cover;
+}
+.card-sehat-img6 {
+  background-image: url("../../assets/images/sehat6.jpg");
+  background-size: cover;
+}
+
+/* end of card sehat */
+
+/* card kerohanian */
+.card-kerohanian-img1 {
+  background-image: url("../../assets/images/kerohanian1.jpg");
+  background-size: cover;
+}
+.card-kerohanian-img2 {
+  background-image: url("../../assets/images/kerohanian2.jpg");
+  background-size: cover;
+}
+.card-kerohanian-img3 {
+  background-image: url("../../assets/images/kerohanian3.jpg");
+  background-size: cover;
+}
+.card-kerohanian-img4 {
+  background-image: url("../../assets/images/kerohanian4.jpg");
+  background-size: cover;
+}
+.card-kerohanian-img5 {
+  background-image: url("../../assets/images/kerohanian5.jpg");
+  background-size: cover;
+}
+.card-kerohanian-img6 {
+  background-image: url("../../assets/images/kerohanian6.jpg");
+  background-size: cover;
+}
+
+/* end of card kerohanian */
+
+/* card t */
+.card-tekno-img1 {
+  background-image: url("../../assets/images/tekno1.jpg");
+  background-size: cover;
+}
+.card-tekno-img2 {
+  background-image: url("../../assets/images/tekno2.jpg");
+  background-size: cover;
+}
+.card-tekno-img3 {
+  background-image: url("../../assets/images/tekno3.jpg");
+  background-size: cover;
+}
+.card-tekno-img4 {
+  background-image: url("../../assets/images/tekno4.jpg");
+  background-size: cover;
+}
+.card-tekno-img5 {
+  background-image: url("../../assets/images/tekno5.jpg");
+  background-size: cover;
+}
+.card-tekno-img6 {
+  background-image: url("../../assets/images/tekno6.jpg");
+  background-size: cover;
+}
+
+/* end of card t */
+
+/* card kategori  */

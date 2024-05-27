@@ -32,49 +32,49 @@ const Donasi = () => {
         <Container className="px-4">
           <Row>
             <Col xs={2}>
-              <div className="flex flex-col text-xl text-black max-w-[283px]">
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Kategori</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Bencana</li>
-                  <li className="square-bullet">Sosial</li>
-                  <li className="square-bullet">Pendidikan</li>
-                  <li className="square-bullet">Kesehatan</li>
-                  <li className="square-bullet">Kerohanian</li>
-                  <li className="square-bullet">Teknologi</li>
-                </ul>
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Campaign</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Normal</li>
-                  <li className="square-bullet">Zakat</li>
-                  <li className="square-bullet">Qurban</li>
-                </ul>
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Status</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Berlangsung</li>
-                  <li className="square-bullet">Selesai</li>
-                  <li className="square-bullet">Diperpanjang</li>
-                </ul>
-                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                  <li className="first-list">
-                    <b>Diurutkan</b>
-                  </li>
-                  <hr className="my-4" />
-                  <li className="square-bullet">Paling Populer</li>
-                  <li className="square-bullet">Akan Berakhir</li>
-                  <li className="square-bullet">Terbaru</li>
-                  <li className="square-bullet">Terlama</li>
-                  <li className="square-bullet">Mendesak</li>
-                </ul>
-              </div>
+            <div className="flex flex-col text-xl text-black max-w-[283px]">
+            <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Kategori</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet1"><Link to="/bencanaalam" target="_blank">Bencana</Link></li>
+                <li className="square-bullet2"><Link to="/sosial" target="_blank">Sosial</Link></li>
+                <li className="square-bullet3"><Link to="/pendidikan" target="_blank">Pendidikan</Link></li>
+                <li className="square-bullet4"><Link to="/kesehatan" target="_blank">Kesehatan</Link></li>
+                <li className="square-bullet4"><Link to="/kerohanian" target="_blank">Kerohanian</Link></li>
+                <li className="square-bullet5"><Link to="/teknologi" target="_blank">Teknologi</Link></li>
+              </ul>
+              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Campaign</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet6"><Link to="/normal" target="_blank">Normal</Link></li>
+                <li className="square-bullet7"><Link to="/zakat" target="_blank">Zakat</Link></li>
+                <li className="square-bullet8"><Link to="/qurban" target="_blank">Qurban</Link></li>
+              </ul>
+              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Status</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet9"><Link to="/normal" target="_blank">Berlangsung</Link></li>
+                <li className="square-bullet10"><Link to="/selesai" target="_blank">Selesai</Link></li>
+                <li className="square-bullet11"><Link to="/diperpanjang" target="_blank">Diperpanjang</Link></li>
+              </ul>
+              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                <li className="first-list">
+                  <b>Diurutkan</b>
+                </li>
+                <hr className="my-4" />
+                <li className="square-bullet12"><Link to="/populer" target="_blank">Paling Populer</Link></li>
+                <li className="square-bullet13"><Link to="/berakhir" target="_blank">Akan Berakhir</Link></li>
+                <li className="square-bullet14"><Link to="/terbaru" target="_blank">Terbaru</Link></li>
+                <li className="square-bullet15"><Link to="/terlama" target="_blank">Terlama</Link></li>
+                <li className="square-bullet16"><Link to="/mendesak" target="_blank">Mendesak</Link></li>
+              </ul>
+            </div>
             </Col>
 
             <Col>
