@@ -19,7 +19,7 @@ import Teknologi from "./kategori/teknologi";
 import Zakat from "./campaign/zakat";
 import Qurban from "./campaign/qurban";
 
-import Derlangsung from "./status/berlangsung";
+import Berlangsung from "./status/berlangsung";
 import Diperpanjang from "./status/diperpanjang";
 import Selesai from "./status/selesai";
 
@@ -48,12 +48,10 @@ function App() {
         <Route path="/kesehatan" element={<Kesehatan />} />
         <Route path="/sosial" element={<Sosial />} />
         <Route path="/teknologi" element={<Teknologi />} />
-<<<<<<< HEAD
-
         <Route path="/zakat" element={<Zakat />} />
         <Route path="/qurban" element={<Qurban />} />
 
-        <Route path="/berlangsung" element={<Derlangsung />} />
+        <Route path="/berlangsung" element={<Berlangsung />} />
         <Route path="/diperpanjang" element={<Diperpanjang />} />
         <Route path="/selesai" element={<Selesai />} />
 
@@ -62,8 +60,6 @@ function App() {
         <Route path="/terbaru" element={<Terbaru />} />
         <Route path="/terlama" element={<Terlama />} />
         <Route path="/mendesak" element={<Mendesak />} />
-=======
->>>>>>> d649b8dd77ed2c3e513c9873e99df5f170f6a543
       </Routes>
       {!isLoginPage && !isRegisterPage && <Footer />}
     </>
