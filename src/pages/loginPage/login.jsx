@@ -1,13 +1,12 @@
-// import React from 'react'
 import React, { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import BackgroundImage from "../../assets/images/bg.jpg";
+import { AiOutlineGoogle } from 'react-icons/ai';
 import Logo from "../../assets/logos/logoHorizontal.png";
 import "../../index.css";
 import "./login.css";
 
-const login = () => {
+const LoginWithoutHeaderAndFooter = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -44,32 +43,31 @@ const login = () => {
             <p>Buat akun atau Masuk untuk mulai menggunakan Dermaceria</p>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label>Masukkan Email</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" value={email} onChange={handleEmailChange} />
+                <Form.Control type="email" placeholder="Masukan Email" value={email} onChange={handleEmailChange} className="form-control-custom"/>
               </Form.Group>
               <Form.Group controlId="formBasicPassword">
-                <Form.Label>Masukkan Kata sandi</Form.Label>
-                <Form.Control type="password" placeholder="Password" value={password} onChange={handlePasswordChange} />
+                <Form.Control type="password" placeholder="Masukan Kata Sandi" value={password} onChange={handlePasswordChange} className="form-control-custom"/>
               </Form.Group>
               <Form.Group controlId="formRole">
-                <Form.Label>Pilih Role</Form.Label>
-                <Form.Control as="select">
-                  <option>Donatur</option>
-                  <option>Penggalang</option>
-                </Form.Control>
+                <Form.Select className="form-control-custom">
+                    <option>Pilih Role</option>
+                    <option value="1">Donatur</option>
+                    <option value="2">Penggalang Dana</option>
+                  </Form.Select>
               </Form.Group>
               <Button variant="warning" type="submit" className="w-100 mb-3">
                 Masuk
               </Button>
               <p className="text-center">Atau</p>
-              <Button variant="outline-warning" type="button" className="w-100 mb-3">
-                Masuk dengan Google
-              </Button>
               <div className="text-center">
                 <p>
                   Belum punya akun? <Link to="/register">Buat Akun</Link>
                 </p>
               </div>
+              <Button variant="warning" type="button" className="w-100 mb-3">
+                <AiOutlineGoogle style={{ color: 'black', marginRight: '8px' }} />
+                Masuk dengan Google
+              </Button>
             </Form>
           </div>
         </Col>
@@ -78,4 +76,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default LoginWithoutHeaderAndFooter;

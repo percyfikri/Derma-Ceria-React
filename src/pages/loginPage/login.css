@@ -1,22 +1,11 @@
-/* login css */
-
-.login-container {
-  background-image: url("./assets/Background.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .login-form {
   background-color: rgba(180, 180, 180, 0.315);
-  /* Lebihgelap */
-  padding: 20px;
+  padding: 10px; /* Mengurangi padding untuk membuat form lebih pendek */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
   color: rgb(0, 0, 0);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 
 .login-form .form-label {
@@ -24,7 +13,7 @@
 }
 
 .login-form a {
-  color: #ffc107; /* Warna kuning */
+  color: #ffc107;
 }
 
 .login-form a:hover {
@@ -36,22 +25,51 @@
 }
 
 .small-text {
-  font-size: 0.8rem; /* Ukuran tulisan lebih kecil */
+  font-size: 0.8rem;
 }
 
 .logo-container {
-  background-color: rgba(51, 51, 51, 0); /* Latar belakang putih dengan transparansi */
+  background-color: rgba(51, 51, 51, 0);
   padding: 10px;
-  /* border-radius: 50%; Membuat latar belakang berbentuk bulat */
   display: inline-block;
 }
 
 .logo {
-  width: 250px; /* Ukuran logo */
+  width: 250px;
   height: auto;
 }
+
 .overlay-text {
-  background-image: url("../../assets/images/bg.jpg");
+  background-image: url("../../assets/images/loginregister.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+/* Additional responsive styles */
+@media (max-width: 768px) {
+  .login-container {
+    top: 0;
+  }
+
+  .login-form {
+    padding: 15px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+}
+
+/* New Styles for Form Control Height and Margin */
+.form-control-custom {
+  height: 35px; /* Sesuaikan tinggi form control */
+  margin-bottom: 13px; /* Sesuaikan jarak antar elemen form */
 }

@@ -1,18 +1,10 @@
-.register-container {
-  position: relative; /* Changed to relative for better alignment */
-  top: calc(10px + 3rem); 
-  /* background-image: url('../../assets/images/Background.jpg'); */
-  background-size: cover;
-  background-position: center;
-}
-
 .register-form {
   background-color: rgba(180, 180, 180, 0.315);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
   color: rgb(0, 0, 0);
-  max-width: 100%; /* Ensure the form does not overflow */
+  max-width: 100%;
   margin-bottom: 20px;
 }
 
@@ -48,9 +40,16 @@
 }
 
 .overlay-text {
-  background-image: url("../../assets/images/Background.jpg");
+  background-image: url("../../assets/images/loginregister.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.google-icon {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
 /* Additional responsive styles */
@@ -66,4 +65,10 @@
   .logo {
     width: 200px;
   }
+}
+
+/* New Styles for Form Control Height and Margin */
+.form-control-custom {
+  height: 35px; /* Sesuaikan tinggi form control */
+  margin-bottom: 13px; /* Sesuaikan jarak antar elemen form */
 }

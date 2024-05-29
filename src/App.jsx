@@ -9,7 +9,7 @@ import Donasi from "./pages/donasiPage/donasi";
 import Event from "./pages/eventPage/event";
 import Blog from "./pages/blogPage/blog";
 import LoginWithoutHeaderAndFooter from "./components/LoginWithoutHeaderAndFooter";
-
+import Register from "./pages/registerPage/register";
 import Pendidikan from "./kategori/pendidikan";
 import Bencana from "./kategori/bencana";
 import Kesehatan from "./kategori/kesehatan";
@@ -31,22 +31,24 @@ import Mendesak from "./diurutkan/mendesak";
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
+  const isRegisterPage = location.pathname === "/register";
 
   return (
     <>
-      {!isLoginPage && <Header />}
+      {!isLoginPage && !isRegisterPage && <Header />}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/donasi" element={<Donasi />} />
         <Route path="/event" element={<Event />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/login" element={<LoginWithoutHeaderAndFooter />} />
-
+        <Route path="/register" element={<Register />} />
         <Route path="/pendidikan" element={<Pendidikan />} />
         <Route path="/bencana" element={<Bencana />} />
         <Route path="/kesehatan" element={<Kesehatan />} />
         <Route path="/sosial" element={<Sosial />} />
         <Route path="/teknologi" element={<Teknologi />} />
+<<<<<<< HEAD
 
         <Route path="/zakat" element={<Zakat />} />
         <Route path="/qurban" element={<Qurban />} />
@@ -60,8 +62,10 @@ function App() {
         <Route path="/terbaru" element={<Terbaru />} />
         <Route path="/terlama" element={<Terlama />} />
         <Route path="/mendesak" element={<Mendesak />} />
+=======
+>>>>>>> d649b8dd77ed2c3e513c9873e99df5f170f6a543
       </Routes>
-      {!isLoginPage && <Footer />}
+      {!isLoginPage && !isRegisterPage && <Footer />}
     </>
   );
 }
