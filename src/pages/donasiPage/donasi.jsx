@@ -32,49 +32,107 @@ const Donasi = () => {
         <Container className="px-4">
           <Row>
             <Col xs={2}>
-            <div className="flex flex-col text-xl text-black max-w-[283px]">
-            <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                <li className="first-list">
-                  <b>Kategori</b>
-                </li>
-                <hr className="my-4" />
-                <li className="square-bullet1"><Link to="/bencanaalam" target="_blank">Bencana</Link></li>
-                <li className="square-bullet2"><Link to="/sosial" target="_blank">Sosial</Link></li>
-                <li className="square-bullet3"><Link to="/pendidikan" target="_blank">Pendidikan</Link></li>
-                <li className="square-bullet4"><Link to="/kesehatan" target="_blank">Kesehatan</Link></li>
-                <li className="square-bullet4"><Link to="/kerohanian" target="_blank">Kerohanian</Link></li>
-                <li className="square-bullet5"><Link to="/teknologi" target="_blank">Teknologi</Link></li>
-              </ul>
-              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                <li className="first-list">
-                  <b>Campaign</b>
-                </li>
-                <hr className="my-4" />
-                <li className="square-bullet6"><Link to="/normal" target="_blank">Normal</Link></li>
-                <li className="square-bullet7"><Link to="/zakat" target="_blank">Zakat</Link></li>
-                <li className="square-bullet8"><Link to="/qurban" target="_blank">Qurban</Link></li>
-              </ul>
-              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                <li className="first-list">
-                  <b>Status</b>
-                </li>
-                <hr className="my-4" />
-                <li className="square-bullet9"><Link to="/normal" target="_blank">Berlangsung</Link></li>
-                <li className="square-bullet10"><Link to="/selesai" target="_blank">Selesai</Link></li>
-                <li className="square-bullet11"><Link to="/diperpanjang" target="_blank">Diperpanjang</Link></li>
-              </ul>
-              <ul style={{ listStyle: "square", paddingLeft: "0" }}>
-                <li className="first-list">
-                  <b>Diurutkan</b>
-                </li>
-                <hr className="my-4" />
-                <li className="square-bullet12"><Link to="/populer" target="_blank">Paling Populer</Link></li>
-                <li className="square-bullet13"><Link to="/berakhir" target="_blank">Akan Berakhir</Link></li>
-                <li className="square-bullet14"><Link to="/terbaru" target="_blank">Terbaru</Link></li>
-                <li className="square-bullet15"><Link to="/terlama" target="_blank">Terlama</Link></li>
-                <li className="square-bullet16"><Link to="/mendesak" target="_blank">Mendesak</Link></li>
-              </ul>
-            </div>
+              <div className="flex flex-col text-xl text-black max-w-[283px]">
+                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                  <li className="first-list">
+                    <b>Kategori</b>
+                  </li>
+                  <hr className="my-4" />
+                  <li className="square-bullet1">
+                    <Link to="/bencana" target="_blank">
+                      Bencana
+                    </Link>
+                  </li>
+                  <li className="square-bullet2">
+                    <Link to="/sosial" target="_blank">
+                      Sosial
+                    </Link>
+                  </li>
+                  <li className="square-bullet3">
+                    <Link to="/pendidikan" target="_blank">
+                      Pendidikan
+                    </Link>
+                  </li>
+                  <li className="square-bullet4">
+                    <Link to="/kesehatan" target="_blank">
+                      Kesehatan
+                    </Link>
+                  </li>
+                  <li className="square-bullet5">
+                    <Link to="/teknologi" target="_blank">
+                      Teknologi
+                    </Link>
+                  </li>
+                </ul>
+                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                  <li className="first-list">
+                    <b>Campaign</b>
+                  </li>
+                  <hr className="my-4" />
+                  <li className="square-bullet7">
+                    <Link to="/zakat" target="_blank">
+                      Zakat
+                    </Link>
+                  </li>
+                  <li className="square-bullet8">
+                    <Link to="/qurban" target="_blank">
+                      Qurban
+                    </Link>
+                  </li>
+                </ul>
+                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                  <li className="first-list">
+                    <b>Status</b>
+                  </li>
+                  <hr className="my-4" />
+                  <li className="square-bullet9">
+                    <Link to="/berlangsung" target="_blank">
+                      Berlangsung
+                    </Link>
+                  </li>
+                  <li className="square-bullet10">
+                    <Link to="/selesai" target="_blank">
+                      Selesai
+                    </Link>
+                  </li>
+                  <li className="square-bullet11">
+                    <Link to="/diperpanjang" target="_blank">
+                      Diperpanjang
+                    </Link>
+                  </li>
+                </ul>
+                <ul style={{ listStyle: "square", paddingLeft: "0" }}>
+                  <li className="first-list">
+                    <b>Diurutkan</b>
+                  </li>
+                  <hr className="my-4" />
+                  <li className="square-bullet12">
+                    <Link to="/populer" target="_blank">
+                      Paling Populer
+                    </Link>
+                  </li>
+                  <li className="square-bullet13">
+                    <Link to="/berakhir" target="_blank">
+                      Akan Berakhir
+                    </Link>
+                  </li>
+                  <li className="square-bullet14">
+                    <Link to="/terbaru" target="_blank">
+                      Terbaru
+                    </Link>
+                  </li>
+                  <li className="square-bullet15">
+                    <Link to="/terlama" target="_blank">
+                      Terlama
+                    </Link>
+                  </li>
+                  <li className="square-bullet16">
+                    <Link to="/mendesak" target="_blank">
+                      Mendesak
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </Col>
 
             <Col>
@@ -85,16 +143,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title className="title-donasi">Pendidikan Anak Yatim</Card.Title>
-                      <Card.Text>
-                        Bantu berikan pendidikan yang layak untuk anak yatim & dhu&apos;afa. Setiap sumbanganmu membuka pintu kesempatan baru bagi mereka. Mari kita berinvestasi dalam masa depan mereka bersama. Donasikan sekarang! div.
-                      </Card.Text>
+                      <Card.Title className="title-donasi">Donasi Pendidikan Anak Yatim & Dhu&apos;afa</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
                         <ProgressBar now={10} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp. 5.000.000</Card.Text>
+                      <Card.Text>
+                        Rp. 5.000.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -104,14 +164,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Pray For Semeru Lumajang</Card.Title>
-                      <Card.Text>Mari memberikan sentuhan harapan bagi mereka yang terkena dampak bencana di Semeru, Lumajang. Setiap sumbanganmu adalah langkah nyata menuju pemulihan. Mari bantu saudara kita yang membutuhkan!</Card.Text>
+                      <Card.Title>Pray For Gunung Semeru Lumajang</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
                         <ProgressBar now={80} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp 40.206.000</Card.Text>
+                      <Card.Text>
+                        Rp 40.206.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -121,14 +185,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Erupsi & Banjir Lahar</Card.Title>
-                      <Card.Text>Bantu mereka yang terdampak erupsi dan banjir lahar. Setiap sumbanganmu berarti bagi pemulihan keadaan mereka. Bersama kita bisa membuat perbedaan. Sumbangkan donasimu sekarang!</Card.Text>
+                      <Card.Title>Peduli Bencana Erupsi & Banjir Lahar</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp.70.000.000</Card.Text>
                       <div>
                         <ProgressBar now={0} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp. 0</Card.Text>
+                      <Card.Text>
+                        Rp. 0
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -140,14 +208,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Bersama Anak Yatim </Card.Title>
-                      <Card.Text>Untuk meraih masa depan yang lebih baik. Sumbanganmu adalah sinar terang bagi mereka. Mari menciptakan perubahan positif. Donasikan sekarang!</Card.Text>
+                      <Card.Title>Meraih Syurga Bersama Anak Yatim & Dhu&apos;afa</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp.10.000.000</Card.Text>
                       <div>
                         <ProgressBar now={0} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp. 0</Card.Text>
+                      <Card.Text>
+                        Rp. 0
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -157,14 +229,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Sumbangan Panti asuhan</Card.Title>
-                      <Card.Text>Ayo bergabung dalam gerakan kemanusiaan! Setiap sumbanganmu membantu menciptakan perbedaan bagi yang membutuhkan. Bersama, kita beri harapan dan mengubah hidup!</Card.Text>
+                      <Card.Title>Kumpulkan Sumbangan Untuk Panti Asuhan</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 25.000.000</Card.Text>
                       <div>
                         <ProgressBar now={25} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp 10.000.000</Card.Text>
+                      <Card.Text>
+                        Rp 10.000.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -174,14 +250,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Berbagi Yatim Dhu&apos;afa</Card.Title>
-                      <Card.Text>Bantu anak yatim & dhu&apos;afa untuk meraih masa depan yang lebih cerah. Sumbanganmu adalah cahaya di dalam kegelapan. Mari kita jaga mereka dengan kasih sayang. Donasikan sekarang!</Card.Text>
+                      <Card.Title>Berbagi Kasih Untuk Yatim Piatu & Dhu’afa</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 10.000.000</Card.Text>
                       <div>
                         <ProgressBar now={75} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp. 0</Card.Text>
+                      <Card.Text>
+                        Rp. 0
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -193,16 +273,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Donasi Tanggap Bencana</Card.Title>
-                      <Card.Text>
-                        Ayo tunjukkan kepedulian kita! Mari bergabung dalam gerakan kebaikan ini dengan memberikan donasi sebesar apapun yang kita mampu. Bersama kita membangun kembali masa depan bagi Kabupaten Cianjur lebih baik.
-                      </Card.Text>
+                      <Card.Title>Donasi Peduli dan Tanggap Bencana Gempa</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp.20.000.000</Card.Text>
                       <div>
                         <ProgressBar now={75} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp 20.000</Card.Text>
+                      <Card.Text>
+                        Rp 20.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -212,14 +294,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Pendidikan Anak Daerah</Card.Title>
-                      <Card.Text>Bersama-sama, kita bisa memberikan akses pendidikan yang berkualitas bagi anak-anak daerah. Setiap sumbanganmu membuka peluang baru bagi masa depan mereka. Mari berikan dukungan sekarang!</Card.Text>
+                      <Card.Title>Bantu Anak Daerah Untuk Mendapatkan Pendidikan</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
                         <ProgressBar now={10} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp 5.000.000</Card.Text>
+                      <Card.Text>
+                        Rp 5.000.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -229,14 +315,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Pendidikan Anak Dhu&apos;afa</Card.Title>
-                      <Card.Text>Bantu ciptakan masa depan lebih cerah bagi masyarakat kurang mampu di Indonesia melalui pendidikan. Sumbanganmu memberikan harapan yang nyata. Mari bergandengan tangan, donasikan sekarang!</Card.Text>
+                      <Card.Title>Bantu Pendidikan Masyarakat Kurang Mampu</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
                         <ProgressBar now={20} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp. 10.611.123</Card.Text>
+                      <Card.Text>
+                        Rp. 10.611.123
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -248,14 +338,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Donasi Darurat Pasien ICU</Card.Title>
-                      <Card.Text>Bantu kami menyelamatkan nyawa pasien ICU dalam keadaan darurat. Setiap detik berharga. Sumbanganmu akan langsung memberikan bantuan medis yang diperlukan. Mari bersama, donasikan sekarang!</Card.Text>
+                      <Card.Title>Donasi Cepat Untuk Pasien ICU Keadaan Darurat</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 100.000.000</Card.Text>
                       <div>
                         <ProgressBar now={23} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp 22.543.111</Card.Text>
+                      <Card.Text>
+                        Rp 22.543.111
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -265,14 +359,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Jaminan Kesehatan Dhu&apos;afa</Card.Title>
-                      <Card.Text>Bantu berikan jaminan kesehatan bagi dhu&apos;afa. Dengan sumbanganmu, kita bisa memberikan perlindungan yang mereka butuhkan. Mari bersama-sama menjaga kesehatan mereka. Donasikan sekarang!</Card.Text>
+                      <Card.Title>Donasi Jaminan Kesehatan Untuk Dhu&apos;afa</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 100.000.000</Card.Text>
                       <div>
                         <ProgressBar now={56} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp. 55.510.220</Card.Text>
+                      <Card.Text>
+                        Rp. 55.510.220
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -282,14 +380,18 @@ const Donasi = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Akses Sehat Masyarakat</Card.Title>
-                      <Card.Text>Bantu kami dalam mempermudah akses kesehatan masyarakat kurang mampu disekitar kita. Sumbanganmu membawa perubahan yang nyata bagi mere. Mari bergandengan tangan, donasikan sekarang!</Card.Text>
+                      <Card.Title>Bantu Mudahkan Akses Kesehatan Masyarakat</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 100.000.000</Card.Text>
                       <div>
                         <ProgressBar now={100} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
                       </div>{" "}
                       <br />
-                      <Card.Text>Rp. 100.000.000</Card.Text>
+                      <Card.Text>
+                        Rp. 100.000.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>

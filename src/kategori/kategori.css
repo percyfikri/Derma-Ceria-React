@@ -79,10 +79,6 @@
   list-style-type: none;
 }
 
-.profile-derma {
-  background-image: url("../../assets/images/profilederma.png");
-}
-
 /* card bencana alam */
 .card-bencana-img1 {
   background-image: url("../../assets/images/benc1.jpg");
@@ -192,35 +188,7 @@
 
 /* end of card sehat */
 
-/* card kerohanian */
-.card-kerohanian-img1 {
-  background-image: url("../../assets/images/kerohanian1.jpg");
-  background-size: cover;
-}
-.card-kerohanian-img2 {
-  background-image: url("../../assets/images/kerohanian2.jpg");
-  background-size: cover;
-}
-.card-kerohanian-img3 {
-  background-image: url("../../assets/images/kerohanian3.jpg");
-  background-size: cover;
-}
-.card-kerohanian-img4 {
-  background-image: url("../../assets/images/kerohanian4.jpg");
-  background-size: cover;
-}
-.card-kerohanian-img5 {
-  background-image: url("../../assets/images/kerohanian5.jpg");
-  background-size: cover;
-}
-.card-kerohanian-img6 {
-  background-image: url("../../assets/images/kerohanian6.jpg");
-  background-size: cover;
-}
-
-/* end of card kerohanian */
-
-/* card t */
+/* card tekno */
 .card-tekno-img1 {
   background-image: url("../../assets/images/tekno1.jpg");
   background-size: cover;
@@ -246,6 +214,4 @@
   background-size: cover;
 }
 
-/* end of card t */
-
-/* card kategori  */
+/* end of card tekno */

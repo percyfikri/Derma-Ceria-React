@@ -1,0 +1,219 @@
+* {
+    font-family: Helvetica;
+    font-style: berakhir;
+  }
+  
+  .donasi-landing h1 {
+    font-weight: 600;
+    color: white;
+    margin-top: 7.5rem;
+    margin-bottom: 0 rem;
+    margin-left: 8rem;
+  }
+  
+  .donasi-landing p {
+    color: white;
+    width: 40%;
+    margin-left: 8rem;
+  }
+  
+  .donasi-landing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: justify;
+    background-image: url("../../assets/images/banner2.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #f7f3e8;
+    margin-button: 0.5rem;
+    width: 100%;
+    height: 410px;
+  }
+  
+  /* Mengatur properti gambar dalam Card */
+  .card-img-top {
+    width: 100%; /* Mengisi lebar gambar sesuai dengan lebar Card */
+    height: 160px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Memastikan gambar sesuai dengan ukuran container tanpa merubah aspek rasio */
+  }
+  
+  .color-landing {
+    background-color: #f7f3e8;
+  }
+  
+  .donasicard {
+    background-color: #f7f3e8;
+  }
+  
+  .card-container {
+    height: 90%;
+    width: 105%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+  }
+  
+  .title-donasi {
+    font-weight: 600;
+    font-size: 0.8rem; /* Ukuran teks untuk judul card */
+  }
+  
+  .card.text {
+    font-size: 0.7rem; /* Ukuran teks untuk isi card */
+  }
+  
+  .custom-hr {
+    height: 5px;
+    background-image: linear-gradient(to right, black, black);
+  }
+  
+  .card-container {
+    height: 100%; /* Menetapkan tinggi 100% untuk kontainer card */
+  }
+  
+  .first-list:first-child {
+    list-style-type: none;
+  }
+  
+  .profile-derma {
+    background-image: url("../../assets/images/profilederma.png");
+  }
+  
+  /* card berakhir */
+  .card-berakhir-img1 {
+    background-image: url("../../assets/images/berakhir1.jpg");
+    background-size: cover;
+  }
+  .card-berakhir-img2 {
+    background-image: url("../../assets/images/berakhir2.jpg");
+    background-size: cover;
+  }
+  .card-berakhir-img3 {
+    background-image: url("../../assets/images/berakhir3.jpg");
+    background-size: cover;
+  }
+  .card-berakhir-img4 {
+    background-image: url("../../assets/images/berakhir4.jpg");
+    background-size: cover;
+  }
+  .card-berakhir-img5 {
+    background-image: url("../../assets/images/berakhir5.jpg");
+    background-size: cover;
+  }
+  .card-berakhir-img6 {
+    background-image: url("../../assets/images/berakhir6.jpg");
+    background-size: cover;
+  }
+  /* end of card berakhir */
+
+  /* card mendesak */
+  .card-mendesak-img1 {
+    background-image: url("../../assets/images/mendesak1.jpg");
+    background-size: cover;
+  }
+  .card-mendesak-img2 {
+    background-image: url("../../assets/images/mendesak2.jpg");
+    background-size: cover;
+  }
+  .card-mendesak-img3 {
+    background-image: url("../../assets/images/mendesak3.jpg");
+    background-size: cover;
+  }
+  .card-mendesak-img4 {
+    background-image: url("../../assets/images/mendesak4.jpg");
+    background-size: cover;
+  }
+  .card-mendesak-img5 {
+    background-image: url("../../assets/images/mendesak5.jpg");
+    background-size: cover;
+  }
+  .card-mendesak-img6 {
+    background-image: url("../../assets/images/mendesak6.jpg");
+    background-size: cover;
+  }
+  /* end of card mendesak */
+  
+   /* card populer */
+   .card-populer-img1 {
+    background-image: url("../../assets/images/populer1.jpg");
+    background-size: cover;
+  }
+  .card-populer-img2 {
+    background-image: url("../../assets/images/populer2.jpg");
+    background-size: cover;
+  }
+  .card-populer-img3 {
+    background-image: url("../../assets/images/populer3.jpg");
+    background-size: cover;
+  }
+  .card-populer-img4 {
+    background-image: url("../../assets/images/populer4.jpg");
+    background-size: cover;
+  }
+  .card-populer-img5 {
+    background-image: url("../../assets/images/populer5.jpg");
+    background-size: cover;
+  }
+  .card-populer-img6 {
+    background-image: url("../../assets/images/populer6.jpg");
+    background-size: cover;
+  }
+  /* end of card populer */
+
+  /* card terbaru */
+  .card-terbaru-img1 {
+    background-image: url("../../assets/images/terbaru1.jpg");
+    background-size: cover;
+  }
+  .card-terbaru-img2 {
+    background-image: url("../../assets/images/terbaru2.jpg");
+    background-size: cover;
+  }
+  .card-terbaru-img3 {
+    background-image: url("../../assets/images/terbaru3.jpg");
+    background-size: cover;
+  }
+  .card-terbaru-img4 {
+    background-image: url("../../assets/images/terbaru4.jpg");
+    background-size: cover;
+  }
+  .card-terbaru-img5 {
+    background-image: url("../../assets/images/terbaru5.jpg");
+    background-size: cover;
+  }
+  .card-terbaru-img6 {
+    background-image: url("../../assets/images/terbaru6.jpg");
+    background-size: cover;
+  }
+  /* end of card terbaru */
+  
+   /* card terlama */
+   .card-terlama-img1 {
+    background-image: url("../../assets/images/terlama1.jpg");
+    background-size: cover;
+  }
+  .card-terlama-img2 {
+    background-image: url("../../assets/images/terlama2.jpg");
+    background-size: cover;
+  }
+  .card-terlama-img3 {
+    background-image: url("../../assets/images/terlama3.jpg");
+    background-size: cover;
+  }
+  .card-terlama-img4 {
+    background-image: url("../../assets/images/terlama4.jpg");
+    background-size: cover;
+  }
+  .card-terlama-img5 {
+    background-image: url("../../assets/images/terlama5.jpg");
+    background-size: cover;
+  }
+  .card-terlama-img6 {
+    background-image: url("../../assets/images/terlama6.jpg");
+    background-size: cover;
+  }
+  /* end of card terlama */

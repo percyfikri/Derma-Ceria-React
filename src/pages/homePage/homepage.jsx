@@ -66,14 +66,6 @@ const Homepage = () => {
                     <Col>
                       <div className="col text-center mt-3">
                         <a href="#" style={{ textDecoration: "none", fontWeight: "bold", color: "inherit" }}>
-                          <img src={Kerohanian} alt="icon Kerohanian" style={{ maxWidth: "120px" }} />
-                          <p className="size-desc-category mt-4 mb-0">Kerohanian</p>
-                        </a>
-                      </div>
-                    </Col>
-                    <Col>
-                      <div className="col text-center mt-3">
-                        <a href="#" style={{ textDecoration: "none", fontWeight: "bold", color: "inherit" }}>
                           <img src={Bencana} alt="icon Bencana" style={{ maxWidth: "120px" }} />
                           <p className="size-desc-category mt-4 mb-0">Bencana Alam</p>
                         </a>

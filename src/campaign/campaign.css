@@ -1,0 +1,165 @@
+* {
+    font-family: Helvetica;
+    font-style: normal;
+  }
+  
+  .donasi-landing h1 {
+    font-weight: 600;
+    color: white;
+    margin-top: 7.5rem;
+    margin-bottom: 0 rem;
+    margin-left: 8rem;
+  }
+  
+  .donasi-landing p {
+    color: white;
+    width: 40%;
+    margin-left: 8rem;
+  }
+  
+  .donasi-landing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: justify;
+    background-image: url("../../assets/images/banner2.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #f7f3e8;
+    margin-button: 0.5rem;
+    width: 100%;
+    height: 410px;
+  }
+  
+  /* Mengatur properti gambar dalam Card */
+  .card-img-top {
+    width: 100%; /* Mengisi lebar gambar sesuai dengan lebar Card */
+    height: 160px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Memastikan gambar sesuai dengan ukuran container tanpa merubah aspek rasio */
+  }
+  
+  .color-landing {
+    background-color: #f7f3e8;
+  }
+  
+  .donasicard {
+    background-color: #f7f3e8;
+  }
+  
+  .card-container {
+    height: 90%;
+    width: 105%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+  }
+  
+  .title-donasi {
+    font-weight: 600;
+    font-size: 0.8rem; /* Ukuran teks untuk judul card */
+  }
+  
+  .card.text {
+    font-size: 0.7rem; /* Ukuran teks untuk isi card */
+  }
+  
+  .custom-hr {
+    height: 5px;
+    background-image: linear-gradient(to right, black, black);
+  }
+  
+  .card-container {
+    height: 100%; /* Menetapkan tinggi 100% untuk kontainer card */
+  }
+  
+  .first-list:first-child {
+    list-style-type: none;
+  }
+  
+  .profile-derma {
+    background-image: url("../../assets/images/profilederma.png");
+  }
+  
+  /* card normal */
+  .card-normal-img1 {
+    background-image: url("../../assets/images/normal1.jpg");
+    background-size: cover;
+  }
+  .card-normal-img2 {
+    background-image: url("../../assets/images/normal2.jpg");
+    background-size: cover;
+  }
+  .card-normal-img3 {
+    background-image: url("../../assets/images/normal3.jpg");
+    background-size: cover;
+  }
+  .card-normal-img4 {
+    background-image: url("../../assets/images/normal4.jpg");
+    background-size: cover;
+  }
+  .card-normal-img5 {
+    background-image: url("../../assets/images/normal5.jpg");
+    background-size: cover;
+  }
+  .card-normal-img6 {
+    background-image: url("../../assets/images/normal6.jpg");
+    background-size: cover;
+  }
+  /* end of card normal */
+
+  /* card zakat */
+  .card-zakat-img1 {
+    background-image: url("../../assets/images/zakat1.jpg");
+    background-size: cover;
+  }
+  .card-zakat-img2 {
+    background-image: url("../../assets/images/zakat2.jpg");
+    background-size: cover;
+  }
+  .card-zakat-img3 {
+    background-image: url("../../assets/images/zakat3.jpg");
+    background-size: cover;
+  }
+  .card-zakat-img4 {
+    background-image: url("../../assets/images/zakat4.jpg");
+    background-size: cover;
+  }
+  .card-zakat-img5 {
+    background-image: url("../../assets/images/zakat5.jpg");
+    background-size: cover;
+  }
+  .card-zakat-img6 {
+    background-image: url("../../assets/images/zakat6.jpg");
+    background-size: cover;
+  }
+  /* end of card zakat */
+  
+   /* card qurban */
+   .card-qurban-img1 {
+    background-image: url("../../assets/images/qurban1.jpg");
+    background-size: cover;
+  }
+  .card-qurban-img2 {
+    background-image: url("../../assets/images/qurban2.jpg");
+    background-size: cover;
+  }
+  .card-qurban-img3 {
+    background-image: url("../../assets/images/qurban3.jpg");
+    background-size: cover;
+  }
+  .card-qurban-img4 {
+    background-image: url("../../assets/images/qurban4.jpg");
+    background-size: cover;
+  }
+  .card-qurban-img5 {
+    background-image: url("../../assets/images/qurban5.jpg");
+    background-size: cover;
+  }
+  .card-qurban-img6 {
+    background-image: url("../../assets/images/qurban6.jpg");
+    background-size: cover;
+  }
+  /* end of card zakat */

@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
-import "./kategori.css";
-
-const bencanaalam = () => {
+import "./diurutkan.css";
+const mendesak = () => {
   return (
-    <div>
+<div>
       {/* landing page */}
       <div className="color-landing " style={{ position: "relative", minHeight: "80vh" }}>
         <Container>
@@ -34,9 +33,9 @@ const bencanaalam = () => {
                   </li>
                   <hr className="my-4" />
                   <li className="square-bullet1">
-                    <Link to="/bencanaalam" target="_blank">
+                    <a href="/bencana" target="_blank" rel="noopener noreferrer">
                       Bencana
-                    </Link>
+                    </a>
                   </li>
                   <li className="square-bullet2">
                     <Link to="/sosial" target="_blank">
@@ -53,11 +52,6 @@ const bencanaalam = () => {
                       Kesehatan
                     </Link>
                   </li>
-                  <li className="square-bullet4">
-                    <Link to="/kerohanian" target="_blank">
-                      Kerohanian
-                    </Link>
-                  </li>
                   <li className="square-bullet5">
                     <Link to="/teknologi" target="_blank">
                       Teknologi
@@ -69,11 +63,6 @@ const bencanaalam = () => {
                     <b>Campaign</b>
                   </li>
                   <hr className="my-4" />
-                  <li className="square-bullet6">
-                    <Link to="/normal" target="_blank">
-                      Normal
-                    </Link>
-                  </li>
                   <li className="square-bullet7">
                     <Link to="/zakat" target="_blank">
                       Zakat
@@ -91,7 +80,7 @@ const bencanaalam = () => {
                   </li>
                   <hr className="my-4" />
                   <li className="square-bullet9">
-                    <Link to="/normal" target="_blank">
+                    <Link to="/berlangsung" target="_blank">
                       Berlangsung
                     </Link>
                   </li>
@@ -139,63 +128,66 @@ const bencanaalam = () => {
                 </ul>
               </div>
             </Col>
-
             <Col>
               <Row className="gap-6 max-md:flex-col max-md:gap-0">
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
                   <Card className="card-container">
-                    <div className="card-bencana-img1">
+                    <div className="card-mendesak-img1">
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title style={{ fontSize: "1.14rem" }}>Donasi Tanggap Bencana</Card.Title>
-                      <Card.Text>
-                        Ayo tunjukkan kepedulian kita! Mari bergabung dalam gerakan kebaikan ini dengan memberikan donasi sebesar apapun yang kita mampu. Bersama, kita dapat membantu membangun kembali masa depan bagi Kabupaten Ci Anjur yang
-                        lebih baik.
-                      </Card.Text>
-                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 20.000.000</Card.Text>
-                      <div>
-                        <ProgressBar now={100} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} />{" "}
-                      </div>{" "}
-                      <br />
-                      <Card.Text>Rp. 20.000.000</Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                  <Card className="card-container">
-                    <div className="card-bencana-img2">
-                      <Card.Img variant="top" />
-                    </div>
-                    <Card.Body>
-                      <Card.Title>Pray For Semeru Lumajang</Card.Title>
-                      <Card.Text>
-                        Mari memberikan sentuhan harapan bagi mereka yang terkena dampak bencana di Semeru, Lumajang. Setiap sumbanganmu adalah langkah nyata menuju pemulihan. Mari bersatu, mari berdonasi untuk membantu saudara-saudara kita
-                        yang membutuhkan.
-                      </Card.Text>
+                      <Card.Title>Bantu Warga Terdampak Banjir di Sumbar</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
-                        <ProgressBar now={94} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                      </div>{" "}
+                        <ProgressBar now={30} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} />
+                      </div>
                       <br />
-                      <Card.Text>Rp. 40.205.000</Card.Text>
+                      <Card.Text>
+                      Rp. 15.546.876                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
                   <Card className="card-container">
-                    <div className="card-bencana-img3">
+                    <div className="card-mendesak-img2">
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Donasi Erupsi & Banjir Lahar</Card.Title>
-                      <Card.Text>Bantu mereka yang terdampak erupsi dan banjir lahar. Setiap sumbanganmu berarti bagi pemulihan mereka. Bersama kita bisa membuat perbedaan.Mari Sumbangkan sebagian hartamu untuk mereka sekarang!</Card.Text>
-                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 70.000.000</Card.Text>
+                      <Card.Title>Anak dengan Penyakit Kronis Gagal Berobat</Card.Title>
+                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 116.650.000</Card.Text>
                       <div>
-                        <ProgressBar now={0} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                      </div>{" "}
+                        <ProgressBar now={20} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+                      </div>
                       <br />
-                      <Card.Text>Rp. 0</Card.Text>
+                      <Card.Text>
+                      Rp. 40.282.072                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
+                  <Card className="card-container">
+                    <div className="card-mendesak-img3">
+                      <Card.Img variant="top" />
+                    </div>
+                    <Card.Body>
+                      <Card.Title>Asap Tebal Kebakaran Hutan Kalbar!</Card.Title>
+                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp.500.000.000</Card.Text>
+                      <div>
+                        <ProgressBar now={45} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+                      </div>
+                      <br />
+                      <Card.Text>
+                      Rp. 249.546.876                        
+                      <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -203,52 +195,64 @@ const bencanaalam = () => {
               <Row className="gap-6 max-md:flex-col max-md:gap-0">
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
                   <Card className="card-container">
-                    <div className="card-bencana-img4">
+                    <div className="card-mendesak-img4">
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Donasi Gempa Bumi</Card.Title>
-                      <Card.Text>mAyo bantu masyarakat Jawa Barat yang terkena bencana alam gempa bumi. Dengan uluran tangan kita semoga memberikan dampak yang positif bagi mereka!</Card.Text>
-                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp.20.000.000</Card.Text>
-                      <div>
-                        <ProgressBar now={80} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                      </div>{" "}
-                      <br />
-                      <Card.Text>Rp. 15.000.000</Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                  <Card className="card-container">
-                    <div className="card-bencana-img5">
-                      <Card.Img variant="top" />
-                    </div>
-                    <Card.Body>
-                      <Card.Title>URGENT! BANTU WARGA TERDAMPAK BANJIR DI SUMBAR</Card.Title>
-                      <Card.Text>Total ada 50 korban meninggal berhasil ditemukan</Card.Text>
+                      <Card.Title>Selimut Gaza! Bantu Mereka Di Pengungsian</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
-                        <ProgressBar now={22} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />{" "}
-                      </div>{" "}
+                        <ProgressBar now={10} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+                      </div>
                       <br />
-                      <Card.Text>Rp. 15.546.876</Card.Text>
+                      <Card.Text>
+                        Rp. 5.000.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
                   <Card className="card-container">
-                    <div className="card-bencana-img6">
+                    <div className="card-mendesak-img5">
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Asap Tebal Kebakaran Hutan Kepung Kalbar!</Card.Title>
-                      <Card.Text>Kebakaran terjadi disejumlah titik di wilayah Kalbar selama beberapa hari terakhir yang memicu asap tebal.</Card.Text>
-                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 500.000.000</Card.Text>
+                      <Card.Title>Donatur Tetap Untuk 22 Anak Panti Asuhan</Card.Title>
+                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
-                        <ProgressBar now={40} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={30} aria-valuemin={0} aria-valuemax={100} />{" "}
-                      </div>{" "}
+                        <ProgressBar now={18} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={75} />
+                      </div>
                       <br />
-                      <Card.Text>Rp. 249.546.876</Card.Text>
+                      <Card.Text>
+                      Rp. 4.350.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
+                  <Card className="card-container">
+                    <div className="card-mendesak-img6">
+                      <Card.Img variant="top" />
+                    </div>
+                    <Card.Body>
+                      <Card.Title>Bantu Kepala Hamzah Kembali Normal</Card.Title>
+                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 90.000.000</Card.Text>
+                      <div>
+                        <ProgressBar now={14} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={30} aria-valuemin={0} aria-valuemax={2} />
+                      </div>
+                      <br />
+                      <Card.Text>
+                        Rp. 8.500.000
+                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                          Donasi
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -258,8 +262,7 @@ const bencanaalam = () => {
         </Container>
       </div>
       {/* end card */}
-    </div>
-  );
-};
+    </div>  )
+}
 
-export default bencanaalam;
+export default mendesak
