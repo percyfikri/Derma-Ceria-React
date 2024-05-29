@@ -10,24 +10,25 @@ import Event from "./pages/eventPage/event";
 import Blog from "./pages/blogPage/blog";
 import LoginWithoutHeaderAndFooter from "./components/LoginWithoutHeaderAndFooter";
 import Register from "./pages/registerPage/register";
-import Pendidikan from "./kategori/pendidikan";
-import Bencana from "./kategori/bencana";
-import Kesehatan from "./kategori/kesehatan";
-import Sosial from "./kategori/sosial";
-import Teknologi from "./kategori/teknologi";
 
-import Zakat from "./campaign/zakat";
-import Qurban from "./campaign/qurban";
+import Pendidikan from "./pages/kategori/pendidikan";
+import Bencana from "./pages/kategori/bencana";
+import Kesehatan from "./pages/kategori/kesehatan";
+import Sosial from "./pages/kategori/sosial";
+import Teknologi from "./pages/kategori/teknologi";
 
-import Berlangsung from "./status/berlangsung";
-import Diperpanjang from "./status/diperpanjang";
-import Selesai from "./status/selesai";
+import Zakat from "./pages/campaign/zakat";
+import Qurban from "./pages/campaign/qurban";
 
-import Populer from "./diurutkan/populer";
-import Berakhir from "./diurutkan/berakhir";
-import Terbaru from "./diurutkan/terbaru";
-import Terlama from "./diurutkan/terlama";
-import Mendesak from "./diurutkan/mendesak";
+import Berlangsung from "./pages/status/berlangsung";
+import Diperpanjang from "./pages/status/diperpanjang";
+import Selesai from "./pages/status/selesai";
+
+import Populer from "./pages/diurutkan/populer";
+import Berakhir from "./pages/diurutkan/berakhir";
+import Terbaru from "./pages/diurutkan/terbaru";
+import Terlama from "./pages/diurutkan/terlama";
+import Mendesak from "./pages/diurutkan/mendesak";
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
