@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col, Card, ProgressBar, Nav } from "react-bootstrap";
 import "./kategori.css";
 import FilterComponent from "../../components/FilterComponent";
 import Landing2Component from "../../components/Landing2Component";
@@ -15,6 +15,29 @@ const sosial = () => {
 
             <Col>
               <Row className="gap-6 max-md:flex-col max-md:gap-0">
+              <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
+                  <Card className="card-container">
+                    <div className="card-sos-img3">
+                      <Card.Img variant="top" />
+                    </div>
+                    <Card.Body>
+                      <Card.Title>Berbagi Kasih untuk Yatim Dhu&apos;afa</Card.Title>
+                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 10.000.000</Card.Text>
+                      <div>
+                        <ProgressBar now={0} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+                      </div>
+                      <br />
+                      <Card.Text>
+                        Rp. 0
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
+                          Donasi
+                        </Nav.Link>                        
+                        </h1>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
                   <Card className="card-container">
                     <div className="card-sos-img1">
@@ -29,9 +52,11 @@ const sosial = () => {
                       <br />
                       <Card.Text>
                         Rp. 10.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -50,30 +75,11 @@ const sosial = () => {
                       <br />
                       <Card.Text>
                         Rp 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
-                  <Card className="card-container">
-                    <div className="card-sos-img3">
-                      <Card.Img variant="top" />
-                    </div>
-                    <Card.Body>
-                      <Card.Title>Berbagi Kasih untuk Yatim Dhu&apos;afa</Card.Title>
-                      <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 10.000.000</Card.Text>
-                      <div>
-                        <ProgressBar now={0} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
-                      </div>
-                      <br />
-                      <Card.Text>
-                        Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
-                          Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -94,9 +100,11 @@ const sosial = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -107,7 +115,7 @@ const sosial = () => {
                       <Card.Img variant="top" />
                     </div>
                     <Card.Body>
-                      <Card.Title>Bantu Guru Pelosok Daerah dengan Sedekah Subuh</Card.Title>
+                      <Card.Title>Bantu Guru di Pelosok dengan Sedekah Subuh</Card.Title>
                       <Card.Text style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>Rp. 50.000.000</Card.Text>
                       <div>
                         <ProgressBar now={0} variant="warning" style={{ width: "100%", height: "5px" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
@@ -115,9 +123,11 @@ const sosial = () => {
                       <br />
                       <Card.Text>
                         Rp 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -136,9 +146,11 @@ const sosial = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>

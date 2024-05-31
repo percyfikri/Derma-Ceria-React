@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col, Card, ProgressBar, Nav } from "react-bootstrap";
 import "./donasi.css";
 import FilterComponent from "../../components/FilterComponent";
 
@@ -50,9 +50,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp. 5.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailPendidikan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -71,9 +73,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp 40.206.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailBencana">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -92,9 +96,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailBencana">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -115,9 +121,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -136,9 +144,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp 10.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -157,9 +167,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailSosial">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -180,9 +192,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp 20.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailBencana">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -201,9 +215,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp 5.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailPendidikan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -222,9 +238,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp. 10.611.123
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailPendidikan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -245,9 +263,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp 22.543.111
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -266,9 +286,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp. 55.510.220
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -287,9 +309,11 @@ const Donasi = () => {
                       <br />
                       <Card.Text>
                         Rp. 100.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>

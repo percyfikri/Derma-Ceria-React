@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col, Card, ProgressBar, Nav } from "react-bootstrap";
 import "./diurutkan.css";
 import FilterComponent from "../../components/FilterComponent";
 import Landing2Component from "../../components/Landing2Component";
@@ -28,9 +28,11 @@ const terbaru = () => {
                       <br />
                       <Card.Text>
                         Rp. 5.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailTerbaru">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -48,9 +50,12 @@ const terbaru = () => {
                       </div>
                       <br />
                       <Card.Text>
-                      Rp. 15.546.876                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      Rp. 15.546.876                        
+                      <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailTerbaru">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -68,9 +73,12 @@ const terbaru = () => {
                       </div>
                       <br />
                       <Card.Text>
-                      Rp. 249.546.876                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      Rp. 249.546.876                        
+                      <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailTerbaru">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -90,9 +98,12 @@ const terbaru = () => {
                       </div>
                       <br />
                       <Card.Text>
-                      Rp. 40.282.072                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      Rp. 40.282.072                        
+                      <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailTerbaru">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -111,9 +122,11 @@ const terbaru = () => {
                       <br />
                       <Card.Text>
                         Rp. 5.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailTerbaru">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -132,9 +145,11 @@ const terbaru = () => {
                       <br />
                       <Card.Text>
                         Rp. 5.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailTerbaru">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>

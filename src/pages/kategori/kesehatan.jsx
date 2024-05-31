@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col, Card, ProgressBar, Nav } from "react-bootstrap";
 import "./kategori.css";
 import FilterComponent from "../../components/FilterComponent";
 import Landing2Component from "../../components/Landing2Component";
@@ -29,9 +29,11 @@ const kesehatan = () => {
                       <br />
                       <Card.Text>
                         Rp. 22.543.111
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -50,9 +52,11 @@ const kesehatan = () => {
                       <br />
                       <Card.Text>
                         Rp. 55.510.220
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -71,9 +75,11 @@ const kesehatan = () => {
                       <br />
                       <Card.Text>
                         Rp. 100.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -94,9 +100,11 @@ const kesehatan = () => {
                       <br />
                       <Card.Text>
                         Rp. 45.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -115,9 +123,11 @@ const kesehatan = () => {
                       <br />
                       <Card.Text>
                         Rp. 33.250.005
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -136,9 +146,11 @@ const kesehatan = () => {
                       <br />
                       <Card.Text>
                         Rp. 40.282.072
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailKesehatan">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>

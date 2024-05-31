@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -33,6 +34,17 @@ import Terlama from "./pages/diurutkan/terlama";
 import Mendesak from "./pages/diurutkan/mendesak";
 // end of list
 
+// detail Donasi
+import Detailpendidikan from "./pages/detailDonasi/detailPendidikan";
+import Detailbencana from "./pages/detailDonasi/detailBencana";
+import Detailkesehatan from "./pages/detailDonasi/detailKesehatan";
+import Detailsosial from "./pages/detailDonasi/detailSosial";
+import Detailteknologi from "./pages/detailDonasi/detailTeknologi";
+
+import Detailzakat from "./pages/detailDonasi/detailZakat";
+import Detailqurban from "./pages/detailDonasi/detailQurban";
+// end of detail donasi
+
 
 function App() {
   const location = useLocation();
@@ -64,11 +76,21 @@ function App() {
         <Route path="/selesai" element={<Selesai />} />
 
         <Route path="/populer" element={<Populer />} />
-        <Route path="/berakhir" element={<Berakhir />} />
         <Route path="/terbaru" element={<Terbaru />} />
-        <Route path="/terlama" element={<Terlama />} />
         <Route path="/mendesak" element={<Mendesak />} />
         {/* end of filter donasi */}
+
+        {/* detail Donasi */}
+        <Route path="/detailpendidikan" element={<Detailpendidikan />} />
+        <Route path="/detailbencana" element={<Detailbencana />} />
+        <Route path="/detailkesehatan" element={<Detailkesehatan />} />
+        <Route path="/detailsosial" element={<Detailsosial />} />
+        <Route path="/detailteknologi" element={<Detailteknologi />} />
+
+        <Route path="/detailzakat" element={<Detailzakat />} />
+        <Route path="/detailqurban" element={<Detailqurban />} />
+
+        {/* end of detail Donasi */}
 
       </Routes>
       {!isLoginPage && !isRegisterPage && <Footer />}

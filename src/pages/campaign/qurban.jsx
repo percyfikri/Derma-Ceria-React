@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col, Card, ProgressBar, Nav } from "react-bootstrap";
 import "./campaign.css";
 import FilterComponent from "../../components/FilterComponent";
 import Landing2Component from "../../components/Landing2Component";
 const qurban = () => {
   return (
     <div>
-      <Landing2Component/>
+      <Landing2Component />
       <div className="donasicard w-100 min-vh-100">
         <Container className="px-4">
           <Row>
-              <FilterComponent/>
+            <FilterComponent />
             <Col>
               <Row className="gap-6 max-md:flex-col max-md:gap-0">
                 <Col xs={12} sm={6} md={4} style={{ marginBottom: "1rem" }}>
@@ -28,9 +28,11 @@ const qurban = () => {
                       <br />
                       <Card.Text>
                         Rp. 150.000.000
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailQurban">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -49,9 +51,11 @@ const qurban = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailQurban">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -70,9 +74,11 @@ const qurban = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailQurban">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -93,9 +99,11 @@ const qurban = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailQurban">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -114,9 +122,11 @@ const qurban = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailQurban">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -135,9 +145,11 @@ const qurban = () => {
                       <br />
                       <Card.Text>
                         Rp. 0
-                        <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                        <Nav.Link href="/detailQurban">
                           Donasi
-                        </a>
+                        </Nav.Link>                        
+                        </h1>
                       </Card.Text>
                     </Card.Body>
                   </Card>
