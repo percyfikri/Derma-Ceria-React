@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 
 import Header from "./components/HeaderComponent";
 import Footer from "./components/FooterComponent";
+// import Filter  from "./components/FilterComponent";
 
 import Homepage from "./pages/homePage/homepage";
 import Donasi from "./pages/donasiPage/donasi";
@@ -11,6 +12,7 @@ import Blog from "./pages/blogPage/blog";
 import LoginWithoutHeaderAndFooter from "./components/LoginWithoutHeaderAndFooter";
 import Register from "./pages/registerPage/register";
 
+// list donasi
 import Pendidikan from "./pages/kategori/pendidikan";
 import Bencana from "./pages/kategori/bencana";
 import Kesehatan from "./pages/kategori/kesehatan";
@@ -29,6 +31,9 @@ import Berakhir from "./pages/diurutkan/berakhir";
 import Terbaru from "./pages/diurutkan/terbaru";
 import Terlama from "./pages/diurutkan/terlama";
 import Mendesak from "./pages/diurutkan/mendesak";
+// end of list
+
+
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
@@ -44,6 +49,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/login" element={<LoginWithoutHeaderAndFooter />} />
         <Route path="/register" element={<Register />} />
+
+        {/* filter donasi */}
         <Route path="/pendidikan" element={<Pendidikan />} />
         <Route path="/bencana" element={<Bencana />} />
         <Route path="/kesehatan" element={<Kesehatan />} />
@@ -61,6 +68,8 @@ function App() {
         <Route path="/terbaru" element={<Terbaru />} />
         <Route path="/terlama" element={<Terlama />} />
         <Route path="/mendesak" element={<Mendesak />} />
+        {/* end of filter donasi */}
+
       </Routes>
       {!isLoginPage && !isRegisterPage && <Footer />}
     </>
