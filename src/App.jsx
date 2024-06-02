@@ -45,7 +45,11 @@ import Detailzakat from "./pages/detailDonasi/detailZakat";
 import Detailqurban from "./pages/detailDonasi/detailQurban";
 // end of detail donasi
 
-
+// dashboard Donatur
+import Dashboarddonatur from "./pages/donaturDashboard/dashboardDonatur";
+import Riwayatdonasi from "./pages/donaturDashboard/riwayatDonasi";
+import TransparansiDonatur from "./pages/donaturDashboard/transparansiDonatur";
+// end of dashboard donatur
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
@@ -90,6 +94,10 @@ function App() {
         <Route path="/detailzakat" element={<Detailzakat />} />
         <Route path="/detailqurban" element={<Detailqurban />} />
 
+        {/* dashboard Donatur */}
+        <Route path="/dashboardDonatur" element={<Dashboarddonatur />} />
+        <Route path="/riwayatDonasi" element={<Riwayatdonasi />} />
+        <Route path="/transparansiDonatur" element={<TransparansiDonatur />} />
         {/* end of detail Donasi */}
 
       </Routes>
