@@ -7,7 +7,7 @@ const pelacakanDonatur = () => {
   return (
     <div>
       <div className="container">
-        <div className="title-container">
+        <div className="title-pelacakan">
           <h1>Pelacakan Donasi</h1>
         </div>
         <div className="detail-1">

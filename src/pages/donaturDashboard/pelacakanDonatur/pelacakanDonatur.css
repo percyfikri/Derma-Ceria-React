@@ -1,11 +1,11 @@
 /* title */
-.title-container {
+.title-pelacakan {
   display: flex;
   justify-content: center;
   padding: 3rem;
 }
 
-.title-container h1 {
+.title-pelacakan h1 {
   font-weight: 600;
 }
 /* end title */
