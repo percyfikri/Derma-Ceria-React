@@ -1,3 +1,16 @@
+:root {
+  --primary-color: #f8b02a;
+  --secondary-color: #f7f3e8;
+  --black-color: #231f20;
+  --white-color: white;
+}
+
+.body {
+  background-color: var(--primary-color);
+  font-family: Helvetica, sans-serif;
+  /* font-family: "Times New Roman", Times, serif; */
+}
+
 /* Background Color */
 .bg-color-orange {
   background-color: #f8b22d;

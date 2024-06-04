@@ -51,6 +51,11 @@ import Riwayatdonasi from "./pages/donaturDashboard/riwayatDonasi";
 import TransparansiDonatur from "./pages/donaturDashboard/transparansiDonatur";
 import PelacakanDonatur from "./pages/donaturDashboard/pelacakanDonatur/pelacakanDonatur";
 // end of dashboard donatur
+
+// Donasi Uang dan Barang
+import PayDonasiUang from "./pages/payDonasiUang/payDonasiUang";
+//end of Donasi Uang dan Barang
+
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
@@ -102,6 +107,9 @@ function App() {
         <Route path="/pelacakanDonatur" element={<PelacakanDonatur />} />
         {/* end of detail Donasi */}
 
+        {/* Donasi Uang dan Barang */}
+        <Route path="/payDonasiUang" element={<PayDonasiUang />} />
+        {/* end of Donasi Uang dan Barang */}
       </Routes>
       {!isLoginPage && !isRegisterPage && <Footer />}
     </>
