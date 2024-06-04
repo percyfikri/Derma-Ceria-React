@@ -6,7 +6,7 @@ import "./pelacakanDonatur.css";
 const pelacakanDonatur = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container-pelacakan">
         <div className="title-pelacakan">
           <h1>Pelacakan Donasi</h1>
         </div>
