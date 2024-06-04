@@ -1,11 +1,11 @@
 /* title */
-.title {
+.title-container {
   display: flex;
   justify-content: center;
   padding: 3rem;
 }
 
-.title h1 {
+.title-container h1 {
   font-weight: 600;
 }
 /* end title */
@@ -58,9 +58,9 @@ h5 {
   padding: 0 3rem;
 }
 
-.left img{
-    padding-top: 0.5rem;
-    height: 18rem;
+.left img {
+  padding-top: 0.5rem;
+  height: 18rem;
 }
 
 .rowRiwayat {
@@ -81,10 +81,11 @@ h5 {
 
 .keterangan {
   display: flex;
-  margin: 0 ;
+  margin: 0;
 }
 
-.desc {margin: 0 1.5rem;}
+.desc {
+  margin: 0 1.5rem;
+}
 
 /* End detail-2 */
-
