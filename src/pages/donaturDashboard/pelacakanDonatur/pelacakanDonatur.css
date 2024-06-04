@@ -1,0 +1,90 @@
+/* title */
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.title h1 {
+  font-weight: 600;
+}
+/* end title */
+
+/* detail-1 */
+.detail-1 {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.rowdetail1-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+.rowdetail1-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+/* End detail-1 */
+
+/* detail-2 */
+.detail-2 {
+  padding: 1rem 4rem;
+}
+
+.tracking {
+  display: flex;
+  justify-content: center;
+}
+
+.riwayat {
+  padding: 2rem 0;
+}
+
+.title-riwayat {
+  display: flex;
+  justify-content: start;
+  padding-bottom: 1rem;
+}
+
+.detailTracking {
+  display: flex;
+  justify-content: start;
+  padding: 0 3rem;
+}
+
+.left img{
+    padding-top: 0.5rem;
+    height: 18rem;
+}
+
+.rowRiwayat {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dateTime {
+  padding: 0;
+  margin: 0 1rem;
+}
+
+.date {
+  font-weight: 600;
+}
+
+.keterangan {
+  display: flex;
+  margin: 0 ;
+}
+
+.desc {margin: 0 1.5rem;}
+
+/* End detail-2 */
+

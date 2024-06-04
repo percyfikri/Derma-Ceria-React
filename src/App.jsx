@@ -49,6 +49,7 @@ import Detailqurban from "./pages/detailDonasi/detailQurban";
 import Dashboarddonatur from "./pages/donaturDashboard/dashboardDonatur";
 import Riwayatdonasi from "./pages/donaturDashboard/riwayatDonasi";
 import TransparansiDonatur from "./pages/donaturDashboard/transparansiDonatur";
+import PelacakanDonatur from "./pages/donaturDashboard/pelacakanDonatur/pelacakanDonatur";
 // end of dashboard donatur
 function App() {
   const location = useLocation();
@@ -98,6 +99,7 @@ function App() {
         <Route path="/dashboardDonatur" element={<Dashboarddonatur />} />
         <Route path="/riwayatDonasi" element={<Riwayatdonasi />} />
         <Route path="/transparansiDonatur" element={<TransparansiDonatur />} />
+        <Route path="/pelacakanDonatur" element={<PelacakanDonatur />} />
         {/* end of detail Donasi */}
 
       </Routes>
