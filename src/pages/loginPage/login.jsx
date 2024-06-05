@@ -62,7 +62,7 @@ const LoginWithoutHeaderAndFooter = () => {
                     <option value="2">Penggalang Dana</option>
                   </Form.Select>
               </Form.Group>
-              <Link to="/" style={{ textDecoration: 'none' }}>
+              <Link to="/donasi" style={{ textDecoration: 'none' }}>
                 <Button variant="warning" type="button" className="w-100 mb-3">
                   Masuk
                 </Button>
