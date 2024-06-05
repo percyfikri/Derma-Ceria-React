@@ -50,6 +50,12 @@ import Dashboarddonatur from "./pages/donaturDashboard/dashboardDonatur";
 import Riwayatdonasi from "./pages/donaturDashboard/riwayatDonasi";
 import TransparansiDonatur from "./pages/donaturDashboard/transparansiDonatur";
 // end of dashboard donatur
+
+// dashbord benefisari
+import Dashboardbenefisari from "./pages/benefisariDashboard/dashboardBenefisari";
+import Programkampanye from "./pages/benefisariDashboard/programKampanye";
+import Transparansibenefisari from "./pages/benefisariDashboard/transparansiBenefisari";
+// end of dashboard benefisari
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
@@ -99,6 +105,12 @@ function App() {
         <Route path="/riwayatDonasi" element={<Riwayatdonasi />} />
         <Route path="/transparansiDonatur" element={<TransparansiDonatur />} />
         {/* end of detail Donasi */}
+
+        {/* dashboard benefisari */}
+       <Route path="/dashboardBenefisari" element={<Dashboardbenefisari />} />
+       <Route path="/programKampanye" element={<Programkampanye />} />
+       <Route path="/transparansiBenefisari" element={<Transparansibenefisari />} />
+        {/* end of dashboard benefisari */}
 
       </Routes>
       {!isLoginPage && !isRegisterPage && <Footer />}
