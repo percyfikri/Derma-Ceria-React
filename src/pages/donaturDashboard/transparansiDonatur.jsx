@@ -71,7 +71,7 @@ const transparansiDonatur = () => {
             </Card>
           </Col>
         </Row>
-        <h1 style={{ fontSize: "30px", fontWeight: "bold", marginTop: "3rem", marginBottom: "3rem" }}>Dokumentasi & Testimonial</h1>
+        <h1 style={{ fontSize: "30px", fontWeight: "bold", marginTop: "3rem", marginBottom: "3rem" }}>Dokumentasi</h1>
       
         <Row style={{alignItems: "center"}}>
           <Col >

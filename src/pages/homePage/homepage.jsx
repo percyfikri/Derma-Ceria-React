@@ -49,7 +49,7 @@ const Homepage = () => {
                   <Row className="px-5">
                     <Col>
                       <div className="col text-center mt-3">
-                        <a href="#" style={{ textDecoration: "none", fontWeight: "bold", color: "inherit" }}>
+                        <a href="/pendidikan" style={{ textDecoration: "none", fontWeight: "bold", color: "inherit" }}>
                           <img src={Pendidikan} alt="icon pendidikan" style={{ maxWidth: "120px" }} />
                           <p className="size-desc-category mt-4 mb-0">Pendidikan</p>
                         </a>

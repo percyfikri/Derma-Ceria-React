@@ -1,3 +1,6 @@
+.body{
+  background-color: var(--white-color);
+}
 /* title */
 .title-pelacakan {
   display: flex;

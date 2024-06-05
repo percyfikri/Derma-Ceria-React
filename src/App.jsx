@@ -49,6 +49,7 @@ import Detailqurban from "./pages/detailDonasi/detailQurban";
 import Dashboarddonatur from "./pages/donaturDashboard/dashboardDonatur";
 import Riwayatdonasi from "./pages/donaturDashboard/riwayatDonasi";
 import TransparansiDonatur from "./pages/donaturDashboard/transparansiDonatur";
+import Pelacakandonatur from "./pages/donaturDashboard/pelacakanDonatur/pelacakanDonatur";
 // end of dashboard donatur
 
 // dashbord benefisari
@@ -109,6 +110,7 @@ function App() {
         <Route path="/dashboardDonatur" element={<Dashboarddonatur />} />
         <Route path="/riwayatDonasi" element={<Riwayatdonasi />} />
         <Route path="/transparansiDonatur" element={<TransparansiDonatur />} />
+        <Route path="/pelacakanDonatur" element={<Pelacakandonatur />} />
         {/* end of detail Donasi */}
 
         {/* Donasi Uang dan Barang */}
