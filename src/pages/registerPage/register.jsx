@@ -66,9 +66,11 @@ const Register = () => {
                   <option value="2">Penggalang Dana</option>
                 </Form.Select>
               </Form.Group>
-              <Button variant="warning" type="submit" className="w-100 mb-3">
-                Daftar
-              </Button>
+              <Link to="/" style={{ textDecoration: 'none' }}>
+                <Button variant="warning" type="button" className="w-100 mb-3">
+                  Daftar
+                </Button>
+              </Link>
               <p className="text-center">Atau</p>
               <div className="text-center">
                 <p>
