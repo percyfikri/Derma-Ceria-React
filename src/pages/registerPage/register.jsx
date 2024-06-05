@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
-import { Form, Button, Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { AiOutlineGoogle } from 'react-icons/ai'; // Ganti impor ikon
-import Logo from '../../assets/logos/logoHorizontal.png';
-import '../../index.css';
-import './register.css';
+import React, { useState } from "react";
+import { Form, Button, Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { AiOutlineGoogle } from "react-icons/ai"; // Ganti impor ikon
+import Logo from "../../assets/logos/logoHorizontal.png";
+import "../../index.css";
+import "./register.css";
 
 const Register = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleNameChange = (e) => setName(e.target.value);
   const handleEmailChange = (e) => setEmail(e.target.value);
@@ -17,12 +17,12 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Password:', password);
-    setName('');
-    setEmail('');
-    setPassword('');
+    console.log("Name:", name);
+    console.log("Email:", email);
+    console.log("Password:", password);
+    setName("");
+    setEmail("");
+    setPassword("");
   };
 
   return (
@@ -32,10 +32,19 @@ const Register = () => {
           <div className="h-100 w-100"></div>
         </Col>
         <Col md={6} className="d-flex flex-column align-items-center justify-content-center">
-          <div className="register-form" style={{ maxWidth: '550px', width: '100%' }}>
+          <div className="register-form" style={{ maxWidth: "550px", width: "100%" }}>
             <div className="text-center mb-1">
               <div className="logo-container">
-                <img src={Logo} alt="Logo" className="logo" />
+                <Link to="/">
+                  <img
+                    src={Logo}
+                    alt="Logo"
+                    className="logo"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                    }}
+                  />
+                </Link>
               </div>
             </div>
             <h3 className="mb-3">Buat Akun Baru!</h3>
@@ -57,13 +66,17 @@ const Register = () => {
                   <option value="2">Penggalang Dana</option>
                 </Form.Select>
               </Form.Group>
-              <Button variant="warning" type="submit" className="w-100 mb-3">Daftar</Button>
+              <Button variant="warning" type="submit" className="w-100 mb-3">
+                Daftar
+              </Button>
               <p className="text-center">Atau</p>
               <div className="text-center">
-                <p>Sudah punya akun? <Link to="/login">Masuk</Link></p>
+                <p>
+                  Sudah punya akun? <Link to="/login">Masuk</Link>
+                </p>
               </div>
               <Button variant="warning" type="button" className="w-100 mb-3">
-                <AiOutlineGoogle style={{ color: 'black', marginRight: '8px' }} />
+                <AiOutlineGoogle style={{ color: "black", marginRight: "8px" }} />
                 Masuk dengan Google
               </Button>
             </Form>

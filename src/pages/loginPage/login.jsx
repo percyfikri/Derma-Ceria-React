@@ -36,7 +36,9 @@ const LoginWithoutHeaderAndFooter = () => {
           <div className="login-form" style={{ maxWidth: "550px", width: "100%" }}>
             <div className="text-center mb-1">
               <div className="logo-container">
-                <img src={Logo} alt="Logo" className="logo" />
+                <Link to="/">
+                  <img src={Logo} alt="Logo" className="logo" onClick={(e) => {e.stopPropagation();}} />
+                </Link>
               </div>
             </div>
             <h3 className="mb-3">Selamat Datang!</h3>
