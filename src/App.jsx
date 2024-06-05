@@ -49,21 +49,13 @@ import Detailqurban from "./pages/detailDonasi/detailQurban";
 import Dashboarddonatur from "./pages/donaturDashboard/dashboardDonatur";
 import Riwayatdonasi from "./pages/donaturDashboard/riwayatDonasi";
 import TransparansiDonatur from "./pages/donaturDashboard/transparansiDonatur";
-import PelacakanDonatur from "./pages/donaturDashboard/pelacakanDonatur/pelacakanDonatur";
 // end of dashboard donatur
 
-<<<<<<< HEAD
 // dashbord benefisari
 import Dashboardbenefisari from "./pages/benefisariDashboard/dashboardBenefisari";
 import Programkampanye from "./pages/benefisariDashboard/programKampanye";
 import Transparansibenefisari from "./pages/benefisariDashboard/transparansiBenefisari";
 // end of dashboard benefisari
-=======
-// Donasi Uang dan Barang
-import PayDonasiUang from "./pages/payDonasiUang/payDonasiUang";
-//end of Donasi Uang dan Barang
-
->>>>>>> 8f1627f52c255e60ee65bda0b502f266cbae010e
 function App() {
   const location = useLocation();
   const isLoginPage = location.pathname === "/login";
@@ -112,21 +104,14 @@ function App() {
         <Route path="/dashboardDonatur" element={<Dashboarddonatur />} />
         <Route path="/riwayatDonasi" element={<Riwayatdonasi />} />
         <Route path="/transparansiDonatur" element={<TransparansiDonatur />} />
-        <Route path="/pelacakanDonatur" element={<PelacakanDonatur />} />
         {/* end of detail Donasi */}
 
-<<<<<<< HEAD
         {/* dashboard benefisari */}
        <Route path="/dashboardBenefisari" element={<Dashboardbenefisari />} />
        <Route path="/programKampanye" element={<Programkampanye />} />
        <Route path="/transparansiBenefisari" element={<Transparansibenefisari />} />
         {/* end of dashboard benefisari */}
 
-=======
-        {/* Donasi Uang dan Barang */}
-        <Route path="/payDonasiUang" element={<PayDonasiUang />} />
-        {/* end of Donasi Uang dan Barang */}
->>>>>>> 8f1627f52c255e60ee65bda0b502f266cbae010e
       </Routes>
       {!isLoginPage && !isRegisterPage && <Footer />}
     </>
