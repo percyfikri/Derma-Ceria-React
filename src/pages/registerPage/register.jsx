@@ -30,6 +30,11 @@ const Register = () => {
       <Row className="w-100 justify-content-center">
         <Col md={6} className="d-none d-md-block p-0">
           <div className="h-100 w-100"></div>
+          <div className="copyright-text">
+            <h4>Derma Ceria</h4>
+            <p>Satukan hati, berbagi kebaikan</p>
+            <p>melalui donasi online!</p>
+          </div>
         </Col>
         <Col md={6} className="d-flex flex-column align-items-center justify-content-center">
           <div className="register-form" style={{ maxWidth: "550px", width: "100%" }}>

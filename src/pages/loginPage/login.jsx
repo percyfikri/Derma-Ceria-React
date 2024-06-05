@@ -31,6 +31,11 @@ const LoginWithoutHeaderAndFooter = () => {
       <Row className="w-100">
         <Col md={6} className="d-none d-md-block p-0">
           <div className="h-100 w-100">{/* mengosongkan bagian kiri */}</div>
+          <div className="copyright-text">
+            <h4>Derma Ceria</h4>
+            <p>Satukan hati, berbagi kebaikan</p>
+            <p>melalui donasi online!</p>
+          </div>
         </Col>
         <Col md={6} className="d-flex flex-column align-items-center justify-content-center">
           <div className="login-form" style={{ maxWidth: "550px", width: "100%" }}>
