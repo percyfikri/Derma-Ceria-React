@@ -8,7 +8,10 @@ import Footer from "./components/FooterComponent";
 
 import Homepage from "./pages/homePage/homepage";
 import Donasi from "./pages/donasiPage/donasi";
+
 import Event from "./pages/eventPage/event";
+import Eventdetail from "./pages/eventPage/eventdetail";
+
 import Blog from "./pages/blogPage/blog";
 import LoginWithoutHeaderAndFooter from "./components/LoginWithoutHeaderAndFooter";
 import Register from "./pages/registerPage/register";
@@ -73,7 +76,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/donasi" element={<Donasi />} />
+
         <Route path="/event" element={<Event />} />
+        <Route path="/eventdetail" element={<Eventdetail />} />
+
         <Route path="/blog" element={<Blog />} />
         <Route path="/login" element={<LoginWithoutHeaderAndFooter />} />
         <Route path="/register" element={<Register />} />
@@ -94,6 +100,9 @@ function App() {
         <Route path="/populer" element={<Populer />} />
         <Route path="/terbaru" element={<Terbaru />} />
         <Route path="/mendesak" element={<Mendesak />} />
+        <Route path="/berakhir" element={<Berakhir />} />
+        <Route path="/terlama" element={<Terlama />} />
+
         {/* end of filter donasi */}
 
         {/* detail Donasi */}

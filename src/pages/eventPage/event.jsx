@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Nav } from "react-bootstrap";
 import "./event.css";
-
 
 const event = () => {
   return (
@@ -33,9 +32,9 @@ const event = () => {
                     <br />
                     <br />
                     Dimulai sejak 18 April 2024
-                    <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
-                      Lihat Selengkapnya
-                    </a>
+                    <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      <Nav.Link href="/eventdetail">Lihat Selengkapnya</Nav.Link>
+                    </h1>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -52,9 +51,9 @@ const event = () => {
                     <br />
                     <br />
                     Dimulai sejak 18 April 2024
-                    <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
-                      Lihat Selengkapnya
-                    </a>
+                    <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      <Nav.Link href="/eventdetail">Lihat Selengkapnya</Nav.Link>
+                    </h1>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -71,9 +70,9 @@ const event = () => {
                     <br />
                     <br />
                     Dimulai sejak 18 April 2024
-                    <a href="#" className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
-                      Lihat Selengkapnya
-                    </a>
+                    <h1 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      <Nav.Link href="/eventdetail">Lihat Selengkapnya</Nav.Link>
+                    </h1>
                   </Card.Text>
                 </Card.Body>
               </Card>
