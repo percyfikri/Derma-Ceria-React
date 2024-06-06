@@ -13,6 +13,8 @@ import Event from "./pages/eventPage/event";
 import Eventdetail from "./pages/eventPage/eventdetail";
 
 import Blog from "./pages/blogPage/blog";
+import Blogdetail from "./pages/blogPage/blogdetail";
+
 import LoginWithoutHeaderAndFooter from "./components/LoginWithoutHeaderAndFooter";
 import Register from "./pages/registerPage/register";
 
@@ -81,6 +83,8 @@ function App() {
         <Route path="/eventdetail" element={<Eventdetail />} />
 
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blogdetail" element={<Blogdetail />} />
+
         <Route path="/login" element={<LoginWithoutHeaderAndFooter />} />
         <Route path="/register" element={<Register />} />
 

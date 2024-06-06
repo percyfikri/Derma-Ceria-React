@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Nav } from "react-bootstrap";
 import "./blog.css";
 const event = () => {
   return (
-    <div>
+    <div className="bg-white">
       {/* Landing page */}
       <div className="blog-class" style={{ position: "relative", minHeight: "80vh" }}>
         <Container>
@@ -42,7 +42,12 @@ const event = () => {
                 </div>
                 <Card.Body>
                   <Card.Text>Tidak hanya dengan berdonasi dalamberbentuk uang,tetapi bersama Dermaceria dapat berdonasi dengan berupa donasi barang secara sukarela dan DermaCeria sudah terbukti terpercaya</Card.Text>
-                  <Card.Text className="blog-end">DermaCeria | 02 Apri 2024</Card.Text>
+                  <Card.Text className="blog-end">
+                    DermaCeria | 02 Apri 2024
+                    <h5 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      <Nav.Link href="/blogdetail">Lihat Selengkapnya</Nav.Link>
+                    </h5>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -53,7 +58,11 @@ const event = () => {
                 </div>
                 <Card.Body>
                   <Card.Text>Tips agar dapat berdonasi secara rutin maka luangkan waktumu dengan mempedulikan masyarakat yang membutuhkan dan kiranya tanamkan bahwa pentingnya berdonatur secara rutin.</Card.Text>
-                  <Card.Text className="blog-end">DermaCeria | 12 Februari 2024</Card.Text>
+                  <Card.Text className="blog-end">DermaCeria | 12 Februari 2024
+                  <h5 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      <Nav.Link href="/blogdetail">Lihat Selengkapnya</Nav.Link>
+                    </h5>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -64,7 +73,11 @@ const event = () => {
                 </div>
                 <Card.Body>
                   <Card.Text>Bersama dengan DermaCeria membantu adik yang kurang mampu dalam perekonomian dengan tubuh yang sedang sakit dan membutuhkan uluran tangan sedikit donasi anda berarti untuk membantu pengobatan </Card.Text>
-                  <Card.Text className="blog-end">DermaCeria | 08 Maret 2024</Card.Text>
+                  <Card.Text className="blog-end">DermaCeria | 08 Maret 2024
+                  <h5 className="btn btn-warning" style={{ float: "right", fontSize: "0.9em" }}>
+                      <Nav.Link href="/blogdetail">Lihat Selengkapnya</Nav.Link>
+                    </h5>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>

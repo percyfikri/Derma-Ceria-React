@@ -7,7 +7,7 @@ const EventDetail = () => {
   return (
     <div className="bg-white">
       {/* landing page */}
-      <div className="detail-event-landing" style={{ backgroundColor: "white", position: "relative", minHeight: "100vh" }}></div>
+      <div className="detail-event-landing" style={{ position: "relative", minHeight: "100vh" }}></div>
 
       <div>
         <Row>
