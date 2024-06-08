@@ -22,22 +22,22 @@ code {
 }
 
 .sidebar {
-    width: 250px; /* Adjust this width as necessary */
+    width: 250px; 
     background-color: black;
-    height: 100vh; /* Full height */
-    position: fixed; /* Fix the sidebar to the left */
-    z-index: 1000; /* Ensure the sidebar is on top */
-    display: flex; /* Use flexbox for the sidebar */
-    flex-direction: column; /* Arrange children in a column */
-    align-items: center; /* Center children horizontally */
-    padding-top: 1rem; /* Add some top padding */
+    height: 100vh; 
+    position: fixed; 
+    z-index: 1000; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 1rem; 
 }
 
 .main-content {
-    margin-left: 250px; /* Same width as the sidebar */
-    padding: 20px; /* Add some padding to the main content */
-    flex: 1; /* Take the remaining width */
-    overflow-y: auto; /* Ensure content is scrollable if necessary */
+    margin-left: 250px; 
+    padding: 20px; 
+    flex: 1; 
+    overflow-y: auto; 
 }
 
 .content {
@@ -50,7 +50,7 @@ code {
 }
 
 .sidebar-logo {
-    width: 200px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 1rem; /* Space below the logo */
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 1rem; 
 }
