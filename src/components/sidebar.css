@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content-with-sidebar {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 250px; /* Adjust this width as necessary */
+    background-color: black;
+    height: 100vh; /* Full height */
+    position: fixed; /* Fix the sidebar to the left */
+    z-index: 1000; /* Ensure the sidebar is on top */
+    display: flex; /* Use flexbox for the sidebar */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center children horizontally */
+    padding-top: 1rem; /* Add some top padding */
+}
+
+.main-content {
+    margin-left: 250px; /* Same width as the sidebar */
+    padding: 20px; /* Add some padding to the main content */
+    flex: 1; /* Take the remaining width */
+    overflow-y: auto; /* Ensure content is scrollable if necessary */
+}
+
+.content {
+    padding: 20px;
+}
+
+.nav-link.active {
+    color: orange !important;
+    background-color: transparent !important;
+}
+
+.sidebar-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem; /* Space below the logo */
+}
