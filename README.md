@@ -7,3 +7,4 @@ Get started
 - npm install react-bootstrap bootstrap
 - npm install react-icons
 - npm install mdb-react-ui-kit
+- npm install react-share
